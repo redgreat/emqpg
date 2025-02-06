@@ -1,0 +1,21 @@
+%% -*- mode: erlang;erlang-indent-level: 4;indent-tabs-mode: nil -*-
+{application, erliot,
+[{description, "erliot"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {erliot_app, []}},
+  {included_applications, []},
+  {applications,
+   [kernel,
+    stdlib,
+    lager,
+    ranch
+   ]},
+  {env,[]},
+  {modules, [erliot_app, erliot_sup, erliot_protocol]},
+  {maintainers, [wangcw]},
+  {licenses, ["Apache-2.0"]},
+  {links,[{"GitHub",
+           "https://github.com/redgreat/erliot.git"}]}
+ ]}.
+
