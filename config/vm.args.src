@@ -1,5 +1,5 @@
--sname eadm@localhost
--setcookie eadm_cookie
+-sname emqpg@localhost
+-setcookie emqpg_cookie
 
 -smp auto
 -megabytes 64
@@ -13,4 +13,4 @@
 +C multi_time_warp
 +sbwt none
 
--mnesia dir '"/var/eadm_db"'
+-mnesia dir '"/var/emqpg_db"'
