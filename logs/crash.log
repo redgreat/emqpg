@@ -1,0 +1,1335 @@
+2025-02-14 15:59:53 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.1612.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{already_started,lager},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.1613.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 233
+    stack_size: 29
+    reductions: 68
+  neighbours:
+2025-02-14 16:02:33 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.360.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {function_clause,[{emqtt,subscribe,[<0.361.0>,{"air780eg/sub",1}],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,436}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,62}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.358.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.359.0>,<0.361.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 309
+  neighbours:
+2025-02-14 16:02:33 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {function_clause,[{emqtt,subscribe,[<0.361.0>,{"air780eg/sub",1}],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,436}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,62}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:02:33 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.357.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.361.0>,{"air780eg/sub",1}],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,436}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,62}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.358.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 108
+  neighbours:
+2025-02-14 16:04:22 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {function_clause,[{emqtt,subscribe,[<0.373.0>,{"air780eg/sub",1}],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,436}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,63}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 309
+  neighbours:
+2025-02-14 16:12:44 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",1],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 285
+  neighbours:
+2025-02-14 16:12:44 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",1],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:12:44 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",1],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 108
+  neighbours:
+2025-02-14 16:15:29 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 285
+  neighbours:
+2025-02-14 16:15:29 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:15:29 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 108
+  neighbours:
+2025-02-14 16:15:29 =ERROR REPORT====
+** State machine <0.373.0> terminating
+** When server state  = {initialized,{state,undefined,<0.372.0>,undefined,"fn.wongcw.cn",1883,[],emqtt_sock,undefined,[],60000,false,<<"mqtt_handler">>,true,<<"780eg">>,#Fun<emqtt_secret.0.45167992>,4,<<"MQTT">>,60,undefined,false,false,undefined,#{},[],#{},#{seq => 1,sent => #{},max_inflight => infinity},#{},true,30000,undefined,30000,undefined,undefined,1,false,{none,#{version => 4,max_size => 268435455,strict_mode => false}},0,5000,false,undefined,{[],[]},#{}}}
+** Reason for termination = exit:{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+** Callback modules = [emqtt]
+** Callback mode = state_functions
+** Stacktrace =
+**  [{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]
+2025-02-14 16:15:29 =CRASH REPORT====
+  crasher:
+    initial call: emqtt:init/1
+    pid: <0.373.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},[{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_handler,emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 1303
+  neighbours:
+2025-02-14 16:25:15 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 904
+  neighbours:
+2025-02-14 16:25:15 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:25:15 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 121
+  neighbours:
+2025-02-14 16:25:15 =ERROR REPORT====
+** State machine <0.373.0> terminating
+** When server state  = {connected,{state,undefined,<0.372.0>,undefined,"fn.wongcw.cn",1883,[],emqtt_sock,#Port<0.19>,[],60000,false,<<"mqtt_handler">>,true,<<"780eg">>,#Fun<emqtt_secret.0.45167992>,4,<<"MQTT">>,60,#Ref<0.2625573788.2795765763.138928>,false,false,undefined,#{},[],#{},#{seq => 1,sent => #{},max_inflight => {infinity,infinity}},#{},true,30000,undefined,30000,undefined,0,2,false,{none,#{version => 4,max_size => 268435455,strict_mode => false}},0,5000,false,undefined,{[],[]},#{}}}
+** Reason for termination = exit:{{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+** Callback modules = [emqtt]
+** Callback mode = state_functions
+** Stacktrace =
+**  [{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]
+2025-02-14 16:25:15 =CRASH REPORT====
+  crasher:
+    initial call: emqtt:init/1
+    pid: <0.373.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},[{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_handler,emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 29
+    reductions: 4351
+  neighbours:
+2025-02-14 16:30:35 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 1454
+  neighbours:
+2025-02-14 16:30:35 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:30:35 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 125
+  neighbours:
+2025-02-14 16:30:35 =ERROR REPORT====
+** State machine <0.373.0> terminating
+** When server state  = {connected,{state,undefined,<0.372.0>,undefined,"fn.wongcw.cn",1883,[],emqtt_sock,#Port<0.19>,[],60000,false,<<"mqtt_handler">>,true,<<"780eg">>,#Fun<emqtt_secret.0.45167992>,4,<<"MQTT">>,60,#Ref<0.341191160.3064987652.124843>,false,false,undefined,#{},[],#{<<"air780eg/sub">> => #{nl => 0,qos => 0,rh => 0,rap => 0}},#{seq => 1,sent => #{},max_inflight => {infinity,infinity}},#{},true,30000,#Ref<0.341191160.3064987652.124845>,30000,undefined,0,3,false,{none,#{version => 4,max_size => 268435455,strict_mode => false}},0,5000,false,undefined,{[],[]},#{}}}
+** Reason for termination = exit:{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+** Callback modules = [emqtt]
+** Callback mode = state_functions
+** Stacktrace =
+**  [{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]
+2025-02-14 16:30:35 =CRASH REPORT====
+  crasher:
+    initial call: emqtt:init/1
+    pid: <0.373.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},[{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_handler,emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 4634
+  neighbours:
+2025-02-14 16:38:21 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 904
+  neighbours:
+2025-02-14 16:38:21 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:38:21 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 121
+  neighbours:
+2025-02-14 16:39:17 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {function_clause,[{emqtt,subscribe,[<0.373.0>,{<<"air780eg/sub">>},0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 1425
+  neighbours:
+2025-02-14 16:39:17 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {function_clause,[{emqtt,subscribe,[<0.373.0>,{<<"air780eg/sub">>},0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:39:17 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.373.0>,{<<"air780eg/sub">>},0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 106
+  neighbours:
+2025-02-14 16:39:17 =ERROR REPORT====
+** State machine <0.373.0> terminating
+** When server state  = {connected,{state,undefined,<0.372.0>,undefined,"fn.wongcw.cn",1883,[],emqtt_sock,#Port<0.19>,[],60000,false,<<"mqtt_handler">>,true,<<"780eg">>,#Fun<emqtt_secret.0.45167992>,4,<<"MQTT">>,60,#Ref<0.181045193.1187250185.98843>,false,false,undefined,#{},[],#{},#{seq => 1,sent => #{},max_inflight => {infinity,infinity}},#{},true,30000,undefined,30000,undefined,0,2,false,{none,#{version => 4,max_size => 268435455,strict_mode => false}},0,5000,false,undefined,{[],[]},#{}}}
+** Reason for termination = exit:{function_clause,[{emqtt,subscribe,[<0.373.0>,{<<"air780eg/sub">>},0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+** Callback modules = [emqtt]
+** Callback mode = state_functions
+** Stacktrace =
+**  [{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]
+2025-02-14 16:39:17 =CRASH REPORT====
+  crasher:
+    initial call: emqtt:init/1
+    pid: <0.373.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{function_clause,[{emqtt,subscribe,[<0.373.0>,{<<"air780eg/sub">>},0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},[{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_handler,emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 4310
+  neighbours:
+2025-02-14 16:41:57 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 1464
+  neighbours:
+2025-02-14 16:41:57 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:41:57 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 125
+  neighbours:
+2025-02-14 16:41:57 =ERROR REPORT====
+** State machine <0.373.0> terminating
+** When server state  = {connected,{state,undefined,<0.372.0>,undefined,"fn.wongcw.cn",1883,[],emqtt_sock,#Port<0.19>,[],60000,false,<<"mqtt_handler">>,true,<<"780eg">>,#Fun<emqtt_secret.0.45167992>,4,<<"MQTT">>,60,#Ref<0.1245241203.1188036610.139617>,false,false,undefined,#{},[],#{<<"air780eg/sub">> => #{nl => 0,qos => 0,rh => 0,rap => 0}},#{seq => 1,sent => #{},max_inflight => {infinity,infinity}},#{},true,30000,#Ref<0.1245241203.1188036610.139621>,30000,undefined,0,3,false,{none,#{version => 4,max_size => 268435455,strict_mode => false}},0,5000,false,undefined,{[],[]},#{}}}
+** Reason for termination = exit:{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+** Callback modules = [emqtt]
+** Callback mode = state_functions
+** Stacktrace =
+**  [{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]
+2025-02-14 16:41:57 =CRASH REPORT====
+  crasher:
+    initial call: emqtt:init/1
+    pid: <0.373.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},[{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_handler,emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 4634
+  neighbours:
+2025-02-14 16:44:09 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 1452
+  neighbours:
+2025-02-14 16:44:09 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:44:09 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 125
+  neighbours:
+2025-02-14 16:44:09 =ERROR REPORT====
+** State machine <0.373.0> terminating
+** When server state  = {connected,{state,undefined,<0.372.0>,undefined,"fn.wongcw.cn",1883,[],emqtt_sock,#Port<0.19>,[],60000,false,<<"mqtt_handler">>,true,<<"780eg">>,#Fun<emqtt_secret.0.45167992>,4,<<"MQTT">>,60,#Ref<0.1937485211.2262302721.221135>,false,false,undefined,#{},[],#{<<"air780eg/sub">> => #{nl => 0,qos => 1,rh => 0,rap => 0}},#{seq => 1,sent => #{},max_inflight => {infinity,infinity}},#{},true,30000,#Ref<0.1937485211.2262302721.221139>,30000,undefined,0,3,false,{none,#{version => 4,max_size => 268435455,strict_mode => false}},0,5000,false,undefined,{[],[]},#{}}}
+** Reason for termination = exit:{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+** Callback modules = [emqtt]
+** Callback mode = state_functions
+** Stacktrace =
+**  [{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]
+2025-02-14 16:44:09 =CRASH REPORT====
+  crasher:
+    initial call: emqtt:init/1
+    pid: <0.373.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},[{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_handler,emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 4634
+  neighbours:
+2025-02-14 16:45:55 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.352.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.350.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.351.0>,<0.353.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 1454
+  neighbours:
+2025-02-14 16:45:55 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:45:56 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.349.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.350.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 125
+  neighbours:
+2025-02-14 16:45:56 =ERROR REPORT====
+** State machine <0.353.0> terminating
+** When server state  = {connected,{state,undefined,<0.352.0>,undefined,"fn.wongcw.cn",1883,[],emqtt_sock,#Port<0.19>,[],60000,false,<<"mqtt_handler">>,true,<<"780eg">>,#Fun<emqtt_secret.0.45167992>,4,<<"MQTT">>,60,#Ref<0.402172570.383778820.205359>,false,false,undefined,#{},[],#{<<"air780eg/pos">> => #{nl => 0,qos => 1,rap => 0,rh => 0}},#{seq => 1,sent => #{},max_inflight => {infinity,infinity}},#{},true,30000,#Ref<0.402172570.383778822.205547>,30000,undefined,0,3,false,{none,#{version => 4,max_size => 268435455,strict_mode => false}},0,5000,false,undefined,{[],[]},#{}}}
+** Reason for termination = exit:{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+** Callback modules = [emqtt]
+** Callback mode = state_functions
+** Stacktrace =
+**  [{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]
+2025-02-14 16:45:56 =CRASH REPORT====
+  crasher:
+    initial call: emqtt:init/1
+    pid: <0.353.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},[{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_handler,emqpg_sup,<0.350.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 4603
+  neighbours:
+2025-02-14 16:48:00 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 1837
+  neighbours:
+2025-02-14 16:48:00 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:48:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 125
+  neighbours:
+2025-02-14 16:48:00 =ERROR REPORT====
+** State machine <0.373.0> terminating
+** When server state  = {connected,{state,undefined,<0.372.0>,undefined,"fn.wongcw.cn",1883,[],emqtt_sock,#Port<0.19>,[],60000,false,<<"mqtt_handler">>,true,<<"780eg">>,#Fun<emqtt_secret.0.45167992>,4,<<"MQTT">>,60,#Ref<0.4211535873.3873701892.78111>,false,false,undefined,#{},[],#{<<"air780eg/pos">> => #{nl => 0,qos => 0,rh => 0,rap => 0}},#{seq => 1,sent => #{},max_inflight => {infinity,infinity}},#{},true,30000,#Ref<0.4211535873.3873701892.78116>,30000,undefined,0,3,false,{none,#{version => 4,max_size => 268435455,strict_mode => false}},0,5000,false,undefined,{[],[]},#{}}}
+** Reason for termination = exit:{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+** Callback modules = [emqtt]
+** Callback mode = state_functions
+** Stacktrace =
+**  [{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]
+2025-02-14 16:56:55 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.352.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.350.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.351.0>,<0.353.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 29
+    reductions: 1820
+  neighbours:
+2025-02-14 16:56:55 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 16:56:55 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.349.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.350.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 125
+  neighbours:
+2025-02-14 17:01:37 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{bad_return_value,{ok,#{via => #Port<0.19>},[0]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2222}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 29
+    reductions: 1817
+  neighbours:
+2025-02-14 17:01:37 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {bad_return_value,{ok,#{via => #Port<0.19>},[0]}}
+     Offender:   [{pid,undefined},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 17:01:37 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,emqpg_handler,{bad_return_value,{ok,#{via => #Port<0.19>},[0]}}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 29
+    reductions: 69
+  neighbours:
+2025-02-14 17:01:37 =ERROR REPORT====
+** State machine <0.373.0> terminating
+** When server state  = {connected,{state,undefined,<0.372.0>,undefined,"fn.wongcw.cn",1883,[],emqtt_sock,#Port<0.19>,[],60000,false,<<"mqtt_handler">>,true,<<"780eg">>,#Fun<emqtt_secret.0.45167992>,4,<<"MQTT">>,60,#Ref<0.185200629.117702657.198542>,false,false,undefined,#{},[],#{<<"air780eg/pos">> => #{nl => 0,qos => 0,rh => 0,rap => 0}},#{seq => 1,sent => #{},max_inflight => {infinity,infinity}},#{},true,30000,#Ref<0.185200629.117702657.198547>,30000,undefined,0,3,false,{none,#{version => 4,max_size => 268435455,strict_mode => false}},0,5000,false,undefined,{[],[]},#{}}}
+** Reason for termination = exit:{bad_return_value,{ok,#{via => #Port<0.19>},[0]}}
+** Callback modules = [emqtt]
+** Callback mode = state_functions
+** Stacktrace =
+**  [{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]
+2025-02-14 17:01:37 =CRASH REPORT====
+  crasher:
+    initial call: emqtt:init/1
+    pid: <0.373.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{bad_return_value,{ok,#{via => #Port<0.19>},[0]}},[{gen_statem,loop_receive,3,[{file,"gen_statem.erl"},{line,3625}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_handler,emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 233
+    stack_size: 29
+    reductions: 4579
+  neighbours:
+2025-02-14 17:03:21 =ERROR REPORT====
+driver_select(0x00000172a6248950, 1096, ERL_DRV_READ, 1) by tcp_inet driver #Port<0.19> stealing control of fd=1096 from resource prim_tty:tty
+
+2025-02-14 17:03:22 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.376.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.377.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 214
+  neighbours:
+2025-02-14 17:03:22 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,pool_pg},{mfargs,{poolboy,start_link,[[{name,{local,pool_pg}},{worker_module,eadm_pgpool_worker},{size,2},{max_overflow,20}],[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 17:03:22 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.369.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.370.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 29
+    reductions: 163
+  neighbours:
+2025-02-14 17:03:22 =ERROR REPORT====
+** Generic server <0.377.0> terminating 
+** Last message in was {'EXIT',<0.376.0>,{{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}
+** When Server state == {state,{<0.377.0>,poolboy_sup},simple_one_for_one,{[eadm_pgpool_worker],#{eadm_pgpool_worker => {child,undefined,eadm_pgpool_worker,{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]]},temporary,false,5000,worker,[eadm_pgpool_worker]}}},{mapsets,#{}},0,1,[],0,never,poolboy_sup,{eadm_pgpool_worker,[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]}}
+** Reason for termination ==
+** {{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-14 17:05:03 =ERROR REPORT====
+driver_select(0x0000012fe407e660, 1184, ERL_DRV_READ ERL_DRV_USE, 1) by spawn (c:/Program Files/Erlang OTP/erts-15.2.1/bin/inet_gethost) driver #Port<0.18> stealing control of fd=1184 from resource prim_tty:tty
+
+2025-02-14 17:05:03 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.364.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.358.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.359.0>,<0.365.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 214
+  neighbours:
+2025-02-14 17:05:03 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,pool_pg},{mfargs,{poolboy,start_link,[[{name,{local,pool_pg}},{worker_module,eadm_pgpool_worker},{size,2},{max_overflow,20}],[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 17:05:03 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.357.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.358.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 29
+    reductions: 163
+  neighbours:
+2025-02-14 17:05:03 =ERROR REPORT====
+** Generic server <0.365.0> terminating 
+** Last message in was {'EXIT',<0.364.0>,{{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}
+** When Server state == {state,{<0.365.0>,poolboy_sup},simple_one_for_one,{[eadm_pgpool_worker],#{eadm_pgpool_worker => {child,undefined,eadm_pgpool_worker,{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]]},temporary,false,5000,worker,[eadm_pgpool_worker]}}},{mapsets,#{}},0,1,[],0,never,poolboy_sup,{eadm_pgpool_worker,[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]}}
+** Reason for termination ==
+** {{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-14 17:06:08 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.364.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{badmatch,{error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.358.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.359.0>,<0.365.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 214
+  neighbours:
+2025-02-14 17:06:08 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,pool_pg},{mfargs,{poolboy,start_link,[[{name,{local,pool_pg}},{worker_module,eqmpg_pgpool_worker},{size,2},{max_overflow,20}],[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 17:06:08 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.357.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.358.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 29
+    reductions: 163
+  neighbours:
+2025-02-14 17:06:08 =ERROR REPORT====
+** Generic server <0.365.0> terminating 
+** Last message in was {'EXIT',<0.364.0>,{{badmatch,{error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}
+** When Server state == {state,{<0.365.0>,poolboy_sup},simple_one_for_one,{[eqmpg_pgpool_worker],#{eqmpg_pgpool_worker => {child,undefined,eqmpg_pgpool_worker,{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]]},temporary,false,5000,worker,[eqmpg_pgpool_worker]}}},{mapsets,#{}},0,1,[],0,never,poolboy_sup,{eqmpg_pgpool_worker,[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]}}
+** Reason for termination ==
+** {{badmatch,{error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-14 17:06:08 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:poolboy_sup/1
+    pid: <0.365.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{badmatch,{error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},[{gen_server,decode_msg,9,[{file,"gen_server.erl"},{line,2299}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [pool_pg,emqpg_sup,<0.358.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 1129
+  neighbours:
+2025-02-14 17:06:45 =CRASH REPORT====
+  crasher:
+    initial call: poolboy:init/1
+    pid: <0.364.0>
+    registered_name: []
+    process_label: undefined
+    exception error: {{badmatch,{error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.358.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.359.0>,<0.365.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 29
+    reductions: 214
+  neighbours:
+2025-02-14 17:06:45 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,undefined},{id,pool_pg},{mfargs,{poolboy,start_link,[[{name,{local,pool_pg}},{worker_module,eqqpg_pgpool_worker},{size,2},{max_overflow,20}],[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-14 17:06:45 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/3
+    pid: <0.357.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}},[{application_master,init,3,[{file,"application_master.erl"},{line,143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [application_controller,<0.10.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.358.0>,normal}]
+    links: [<0.45.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 29
+    reductions: 163
+  neighbours:
+2025-02-14 17:06:45 =ERROR REPORT====
+** Generic server <0.365.0> terminating 
+** Last message in was {'EXIT',<0.364.0>,{{badmatch,{error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}
+** When Server state == {state,{<0.365.0>,poolboy_sup},simple_one_for_one,{[eqqpg_pgpool_worker],#{eqqpg_pgpool_worker => {child,undefined,eqqpg_pgpool_worker,{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]]},temporary,false,5000,worker,[eqqpg_pgpool_worker]}}},{mapsets,#{}},0,1,[],0,never,poolboy_sup,{eqqpg_pgpool_worker,[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]}}
+** Reason for termination ==
+** {{badmatch,{error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-14 17:06:45 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:poolboy_sup/1
+    pid: <0.365.0>
+    registered_name: []
+    process_label: undefined
+    exception exit: {{{badmatch,{error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}}},[{poolboy,new_worker,1,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,300}]},{poolboy,prepopulate,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,329}]},{poolboy,init,3,[{file,"d:/github/emqpg/_build/default/lib/poolboy/src/poolboy.erl"},{line,168}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},[{gen_server,decode_msg,9,[{file,"gen_server.erl"},{line,2299}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [pool_pg,emqpg_sup,<0.358.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 1129
+  neighbours:
+2025-02-24 14:47:50 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.19>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"55010000000001402AAAAB1F">>,client_pid => <0.373.0>}}
+** When Server state == #{mqtt_client => <0.373.0>}
+** Reason for termination ==
+** {{badmatch,<<"010000000001402AAAAB1F">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 14:47:50 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"010000000001402AAAAB1F">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 29
+    reductions: 2975
+  neighbours:
+2025-02-24 14:47:50 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"010000000001402AAAAB1F">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.372.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-24 14:49:50 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.22>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"AA0067BC168D000000000000000000000000000000">>,client_pid => <0.385.0>}}
+** When Server state == #{mqtt_client => <0.385.0>}
+** Reason for termination ==
+** {{badmatch,<<"0067BC168D000000000000000000000000000000">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,127}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 14:49:50 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.384.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"0067BC168D000000000000000000000000000000">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,127}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.385.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 29
+    reductions: 2150
+  neighbours:
+2025-02-24 14:49:50 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"0067BC168D000000000000000000000000000000">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,127}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.384.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-24 14:51:50 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.23>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"55010000000001402AAAAB1D">>,client_pid => <0.388.0>}}
+** When Server state == #{mqtt_client => <0.388.0>}
+** Reason for termination ==
+** {{badmatch,<<"010000000001402AAAAB1D">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 14:51:50 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.387.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"010000000001402AAAAB1D">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.388.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 29
+    reductions: 2152
+  neighbours:
+2025-02-24 14:51:50 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"010000000001402AAAAB1D">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.387.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-24 14:53:50 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.24>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"55010000000001402AAAAB1B">>,client_pid => <0.391.0>}}
+** When Server state == #{mqtt_client => <0.391.0>}
+** Reason for termination ==
+** {{badmatch,<<"010000000001402AAAAB1B">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 14:53:50 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.390.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"010000000001402AAAAB1B">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.391.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 29
+    reductions: 2148
+  neighbours:
+2025-02-24 14:53:50 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"010000000001402AAAAB1B">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.390.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-24 14:55:50 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.25>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"550100000000014040000019">>,client_pid => <0.394.0>}}
+** When Server state == #{mqtt_client => <0.394.0>}
+** Reason for termination ==
+** {{badmatch,<<"0100000000014040000019">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 14:55:50 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.393.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"0100000000014040000019">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.394.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 29
+    reductions: 2148
+  neighbours:
+2025-02-24 14:55:50 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"0100000000014040000019">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,132}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.393.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-24 14:57:48 =ERROR REPORT====
+driver_select(0x000001765b375b40, 1092, ERL_DRV_READ, 1) by tcp_inet driver #Port<0.21> stealing control of fd=1092 from resource prim_tty:tty
+
+2025-02-24 14:57:51 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.19>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"55010000000001408AAAAB1C">>,client_pid => <0.373.0>}}
+** When Server state == #{mqtt_client => <0.373.0>}
+** Reason for termination ==
+** {{badmatch,<<"010000000001408AAAAB1C">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 14:57:51 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"010000000001408AAAAB1C">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 3023
+  neighbours:
+2025-02-24 14:57:51 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"010000000001408AAAAB1C">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.372.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-24 14:59:51 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.22>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"AA0067BC18E6000000000000000000000000000000">>,client_pid => <0.385.0>}}
+** When Server state == #{mqtt_client => <0.385.0>}
+** Reason for termination ==
+** {{badmatch,<<"0067BC18E6000000000000000000000000000000">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,128}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 14:59:51 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.384.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"0067BC18E6000000000000000000000000000000">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,128}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.385.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 29
+    reductions: 2171
+  neighbours:
+2025-02-24 14:59:51 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"0067BC18E6000000000000000000000000000000">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,128}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.384.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-24 15:03:52 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.19>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"55010000000001402AAAAB14">>,client_pid => <0.373.0>}}
+** When Server state == #{mqtt_client => <0.373.0>}
+** Reason for termination ==
+** {{badmatch,<<"010000000001402AAAAB14">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 15:03:52 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"010000000001402AAAAB14">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 3016
+  neighbours:
+2025-02-24 15:03:52 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"010000000001402AAAAB14">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.372.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-24 15:06:53 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.22>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"55010000000001402AAAAB1D">>,client_pid => <0.385.0>}}
+** When Server state == #{mqtt_client => <0.385.0>}
+** Reason for termination ==
+** {{badmatch,<<"010000000001402AAAAB1D">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 15:06:53 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.384.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"010000000001402AAAAB1D">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.385.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 29
+    reductions: 2165
+  neighbours:
+2025-02-24 15:06:53 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"010000000001402AAAAB1D">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.384.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-02-24 15:08:53 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.23>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"air780eg/pos">>,payload => <<"550100000000014095555516">>,client_pid => <0.388.0>}}
+** When Server state == #{mqtt_client => <0.388.0>}
+** Reason for termination ==
+** {{badmatch,<<"0100000000014095555516">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-02-24 15:08:53 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.387.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,<<"0100000000014095555516">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.370.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.371.0>,<0.388.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 29
+    reductions: 2167
+  neighbours:
+2025-02-24 15:08:53 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,<<"0100000000014095555516">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.387.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+

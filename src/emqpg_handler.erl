@@ -13,27 +13,30 @@
 
 -behaviour(gen_server).
 
-%% API
+%%%===================================================================
+%%% 函数导出
+%%%===================================================================
 -export([start_link/0]).
 
 %% gen_server callbacks
--export([init/1, handle_call/3, handle_cast/2, handle_info/2, terminate/2,
-  code_change/3]).
+-export([init/1, handle_call/3, handle_cast/2, handle_info/2, terminate/2, code_change/3]).
 
+%%%===================================================================
+%%% 资源
+%%%===================================================================
 -include_lib("emqtt/include/emqtt.hrl").
 
 %%%===================================================================
-%%% API
+%%% API 函数
 %%%===================================================================
-
 %% @doc Spawns the server and registers the local name (unique)
 -spec(start_link() ->
-  {ok, Pid :: pid()} | ignore | {error, Reason :: term()}).
+    {ok, Pid :: pid()} | ignore | {error, Reason :: term()}).
 start_link() ->
-  gen_server:start_link({local, ?MODULE}, ?MODULE, [], []).
+    gen_server:start_link({local, ?MODULE}, ?MODULE, [], []).
 
 %%%===================================================================
-%%% gen_server callbacks
+%%% gen_server 函数
 %%%===================================================================
 init([]) ->
   {ok, Host} = application:get_env(emqpg, emqx_host),
@@ -55,7 +58,7 @@ init([]) ->
 
   {ok, ClientPid} = emqtt:start_link(Options),
   lager:info("MQTT client process started: ~p", [ClientPid]),
-
+    
   case emqtt:connect(ClientPid) of
     {ok, _} ->
       lager:info("Connected to EMQX broker at ~p:~p", [Host, Port]),
@@ -98,14 +101,13 @@ code_change(_OldVsn, State, _Extra) ->
   {ok, State}.
 
 %%%===================================================================
-%%% Internal functions
+%%% 内部函数
 %%%===================================================================
 %% 解析二进制消息并提取经纬度
 parse_message(<<>>) ->
   {error, empty_message};
 parse_message(Binary) when is_binary(Binary) ->
-  HexString = binary_to_hex(Binary),
-  parse_hex_string(HexString);
+  parse_hex_string(Binary);
 parse_message(_) ->
   {error, invalid_format}.
 
@@ -118,21 +120,13 @@ parse_hex_string(HexString) ->
   io:format("~p~n", [HexString]),
   case HexString of
     %% 心跳包格式（假设以 "AA" 开头）
-    <<"AA", _/binary>> ->
-      {ok, heartbeat};
-    %% 位置数据格式（假设为 16 个字节）
-    Hex when byte_size(HexString) == 16 ->
-      <<Latitude:4/binary, Longitude:4/binary>> = hex_to_binary(HexString),
-      {ok, {latitude, binary_to_float(Latitude), longitude, binary_to_float(Longitude)}};
+    <<"AA", Rest/binary>> when byte_size(Rest) == 20 ->
+      <<Info:8, Valid:8, Timestamp:32, Longitude:32, Latitude:32, Altitude:16, Azimuth:16, Speed:8, SNR:8, Satellites:8>> = Rest,
+      {ok, {info, Info, valid, Valid, timestamp, Timestamp, longitude, Longitude, latitude, Latitude, altitude, Altitude, azimuth, Azimuth, speed, Speed, snr, SNR, satellites, Satellites}};
+    %% 设备信息报文格式（假设以 "55" 开头）
+    <<"55", Rest/binary>> when byte_size(Rest) == 22 ->
+      <<Device:8, Open:8, Vibration:8, Unlock:8, Ignition:8, Charging:8, WireCut:8, ExternalVoltage:32, BatteryVoltage:16, GPRS:8, Extra1:8, Extra2:8>> = Rest,
+      {ok, {device, Device, open, Open, vibration, Vibration, unlock, Unlock, ignition, Ignition, charging, Charging, wire_cut, WireCut, external_voltage, ExternalVoltage, battery_voltage, BatteryVoltage, gprs, GPRS, extra1, Extra1, extra2, Extra2}};
     _ ->
       {error, unknown_format}
   end.
-
-%% 将十六进制字符串转换为二进制
-hex_to_binary(HexString) ->
-  << <<(binary_to_integer(<<X:8, Y:8>>, 16)):8>> || <<X:8, Y:8>> <= HexString >>.
-
-%% 将二进制数据转换为浮点数
-binary_to_float(Binary) when byte_size(Binary) == 4 ->
-  <<Float:32/float>> = Binary,
-  Float.

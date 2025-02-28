@@ -1,0 +1,37 @@
+{"1.2.0",
+[{<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.13.0">>},1},
+ {<<"emqtt">>,
+  {git,"https://github.com/emqx/emqtt",
+       {ref,"4ef6cef6ab183698c3d3f30be1401c9315088fb7"}},
+  0},
+ {<<"epgsql">>,
+  {git,"https://github.com/epgsql/epgsql.git",
+       {ref,"64aed378455ec3a45c41826896c5561491ff4f7a"}},
+  0},
+ {<<"getopt">>,{pkg,<<"getopt">>,<<"1.0.3">>},1},
+ {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},1},
+ {<<"gun">>,{pkg,<<"gun">>,<<"2.1.0">>},1},
+ {<<"lager">>,
+  {git,"https://github.com/erlang-lager/lager.git",
+       {ref,"e6b31784e65b838a10d0a533f4b838da8029e402"}},
+  0},
+ {<<"poolboy">>,
+  {git,"https://github.com/devinus/poolboy.git",
+       {ref,"9212a8770edb149ee7ca0bca353855e215f7cba5"}},
+  0},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch.git",
+       {ref,"536aa68ce51354de775f875dd49109ae6fa3a9cb"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"cowlib">>, <<"DB8F7505D8332D98EF50A3EF34B34C1AFDDEC7506E4EE4DD4A3A266285D282CA">>},
+ {<<"getopt">>, <<"4F3320C1F6F26B2BEC0F6C6446B943EB927A1E6428EA279A1C6C534906EE79F1">>},
+ {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
+ {<<"gun">>, <<"B4E4CBBF3026D21981C447E9E7CA856766046EFF693720BA43114D7F5DE36E87">>}]},
+{pkg_hash_ext,[
+ {<<"cowlib">>, <<"E1E1284DC3FC030A64B1AD0D8382AE7E99DA46C3246B815318A4B848873800A4">>},
+ {<<"getopt">>, <<"7E01DE90AC540F21494FF72792B1E3162D399966EBBFC674B4CE52CB8F49324F">>},
+ {<<"goldrush">>, <<"99CB4128CFFCB3227581E5D4D803D5413FA643F4EB96523F77D9E6937D994CEB">>},
+ {<<"gun">>, <<"52FC7FC246BFC3B00E01AEA1C2854C70A366348574AB50C57DFE796D24A0101D">>}]}
+].

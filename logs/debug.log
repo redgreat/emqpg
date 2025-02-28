@@ -1,0 +1,523 @@
+2025-02-14 15:58:15.774 [debug] <0.318.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 15:58:15.774 [debug] <0.315.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 15:58:15.779 [debug] <0.324.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 15:58:15.906 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 15:58:15.906 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 15:58:15.906 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 15:58:15.910 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 15:59:53.435 [debug] <0.1590.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 15:59:53.435 [debug] <0.1587.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 15:59:53.435 [debug] <0.1596.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 15:59:53.469 [info] <0.45.0> Application emqpg exited with reason: {{already_started,lager},{emqpg_app,start,[normal,[]]}}
+2025-02-14 15:59:53.469 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 15:59:53.469 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 15:59:53.469 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 15:59:53.469 [error] <0.1612.0> CRASH REPORT Process <0.1612.0> with 0 neighbours exited with reason: {{already_started,lager},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 15:59:53.469 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 15:59:53.469 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 15:59:53.474 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:02:33.028 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:02:33.028 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:02:33.032 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:02:33.503 [error] <0.360.0>@emqtt:subscribe:436 CRASH REPORT Process <0.360.0> with 0 neighbours crashed with reason: no function clause matching emqtt:subscribe(<0.361.0>, {"air780eg/sub",1}) line 436
+2025-02-14 16:02:33.503 [error] <0.359.0>@emqtt:subscribe:436 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no function clause matching emqtt:subscribe(<0.361.0>, {"air780eg/sub",1}) line 436 in context start_error
+2025-02-14 16:02:33.503 [error] <0.357.0> CRASH REPORT Process <0.357.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.361.0>,{"air780eg/sub",1}],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,436}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,62}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:02:33.503 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.361.0>,{"air780eg/sub",1}],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,436}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,62}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:02:33.503 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:02:33.503 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:02:33.503 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:02:33.503 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:02:33.503 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:02:33.507 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:04:21.863 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:04:21.863 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:04:21.866 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:12:44.361 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:12:44.361 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:12:44.365 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:12:44.409 [error] <0.372.0>@emqtt:subscribe:456 CRASH REPORT Process <0.372.0> with 0 neighbours crashed with reason: no function clause matching emqtt:subscribe(<0.373.0>, "air780eg/sub", 1) line 456
+2025-02-14 16:12:44.409 [error] <0.371.0>@emqtt:subscribe:456 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no function clause matching emqtt:subscribe(<0.373.0>, "air780eg/sub", 1) line 456 in context start_error
+2025-02-14 16:12:44.409 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",1],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:12:44.409 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",1],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:12:44.409 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:12:44.409 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:12:44.409 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:12:44.409 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:12:44.409 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:12:44.409 [error] <0.373.0> gen_statem <0.373.0> in state initialized terminated with reason: {{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",1],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},state_functions}
+2025-02-14 16:12:44.409 [error] <0.373.0>@emqtt:subscribe:456 CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: no function clause matching emqtt:subscribe(<0.373.0>, "air780eg/sub", 1) line 456 in gen_statem:loop_receive/3 line 3625
+2025-02-14 16:12:44.409 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:15:29.434 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:15:29.434 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:15:29.434 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:15:29.480 [error] <0.372.0>@emqtt:subscribe:456 CRASH REPORT Process <0.372.0> with 0 neighbours crashed with reason: no function clause matching emqtt:subscribe(<0.373.0>, "air780eg/sub", 0) line 456
+2025-02-14 16:15:29.480 [error] <0.371.0>@emqtt:subscribe:456 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no function clause matching emqtt:subscribe(<0.373.0>, "air780eg/sub", 0) line 456 in context start_error
+2025-02-14 16:15:29.480 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:15:29.480 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:15:29.480 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:15:29.480 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:15:29.480 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:15:29.480 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:15:29.480 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:15:29.480 [error] <0.373.0> gen_statem <0.373.0> in state initialized terminated with reason: {{function_clause,[{emqtt,subscribe,[<0.373.0>,"air780eg/sub",0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,78}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},state_functions}
+2025-02-14 16:15:29.480 [error] <0.373.0>@emqtt:subscribe:456 CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: no function clause matching emqtt:subscribe(<0.373.0>, "air780eg/sub", 0) line 456 in gen_statem:loop_receive/3 line 3625
+2025-02-14 16:15:29.483 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:16:42.676 [debug] <0.327.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:16:42.676 [debug] <0.324.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:16:42.681 [debug] <0.333.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:16:43.175 [debug] <0.320.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 16:20:57.438 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:20:57.438 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:20:57.443 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:20:57.935 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 16:25:14.868 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:25:14.868 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:25:14.871 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:25:14.916 [info] <0.372.0>@emqpg_handler:init:79 MQTT client process started: <0.373.0>
+2025-02-14 16:25:15.108 [error] <0.372.0>@emqpg_handler:init:82 CRASH REPORT Process <0.372.0> with 0 neighbours crashed with reason: no case clause matching {ok,undefined} in emqpg_handler:init/1 line 82
+2025-02-14 16:25:15.108 [error] <0.371.0>@emqpg_handler:init:82 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no case clause matching {ok,undefined} in emqpg_handler:init/1 line 82 in context start_error
+2025-02-14 16:25:15.108 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:25:15.108 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:25:15.108 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:25:15.108 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:25:15.108 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:25:15.117 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:25:15.117 [error] <0.373.0> gen_statem <0.373.0> in state connected terminated with reason: {{{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},state_functions}
+2025-02-14 16:25:15.117 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:25:15.117 [error] <0.373.0>@emqpg_handler:init:82 CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: no case clause matching {ok,undefined} in emqpg_handler:init/1 line 82 in gen_statem:loop_receive/3 line 3625
+2025-02-14 16:25:15.122 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:30:35.707 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:30:35.706 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:30:35.706 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:30:35.749 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-14 16:30:35.921 [info] <0.372.0>@emqpg_handler:init:65 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 16:30:35.957 [error] <0.372.0>@emqpg_handler:init:67 CRASH REPORT Process <0.372.0> with 0 neighbours crashed with reason: no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 67
+2025-02-14 16:30:35.957 [error] <0.371.0>@emqpg_handler:init:67 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 67 in context start_error
+2025-02-14 16:30:35.957 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:30:35.957 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:30:35.957 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:30:35.958 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:30:35.958 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:30:35.967 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:30:35.967 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:30:35.967 [error] <0.373.0> gen_statem <0.373.0> in state connected terminated with reason: {{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},state_functions}
+2025-02-14 16:30:35.967 [error] <0.373.0>@emqpg_handler:init:67 CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 67 in gen_statem:loop_receive/3 line 3625
+2025-02-14 16:30:35.972 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:38:20.511 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:38:20.511 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:38:20.516 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:38:20.557 [info] <0.372.0>@emqpg_handler:init:79 MQTT client process started: <0.373.0>
+2025-02-14 16:38:21.008 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 16:38:21.739 [error] <0.372.0>@emqpg_handler:init:82 CRASH REPORT Process <0.372.0> with 0 neighbours crashed with reason: no case clause matching {ok,undefined} in emqpg_handler:init/1 line 82
+2025-02-14 16:38:21.739 [error] <0.371.0>@emqpg_handler:init:82 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no case clause matching {ok,undefined} in emqpg_handler:init/1 line 82 in context start_error
+2025-02-14 16:38:21.739 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:38:21.739 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,undefined}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,82}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:38:21.739 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:38:21.739 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:38:21.739 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:38:21.743 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:38:21.743 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:38:21.748 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:39:16.689 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:39:16.689 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:39:16.693 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:39:16.730 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-14 16:39:17.187 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 16:39:17.913 [info] <0.372.0>@emqpg_handler:init:65 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 16:39:17.913 [error] <0.372.0>@emqtt:subscribe:456 CRASH REPORT Process <0.372.0> with 0 neighbours crashed with reason: no function clause matching emqtt:subscribe(<0.373.0>, {<<"air780eg/sub">>}, 0) line 456
+2025-02-14 16:39:17.914 [error] <0.371.0>@emqtt:subscribe:456 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no function clause matching emqtt:subscribe(<0.373.0>, {<<"air780eg/sub">>}, 0) line 456 in context start_error
+2025-02-14 16:39:17.914 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.373.0>,{<<"air780eg/sub">>},0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:39:17.914 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{function_clause,[{emqtt,subscribe,[<0.373.0>,{<<"air780eg/sub">>},0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:39:17.914 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:39:17.914 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:39:17.914 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:39:17.920 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:39:17.920 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:39:17.920 [error] <0.373.0> gen_statem <0.373.0> in state connected terminated with reason: {{function_clause,[{emqtt,subscribe,[<0.373.0>,{<<"air780eg/sub">>},0],[{file,"d:/github/emqpg/_build/default/lib/emqtt/src/emqtt.erl"},{line,456}]},{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},state_functions}
+2025-02-14 16:39:17.920 [error] <0.373.0>@emqtt:subscribe:456 CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: no function clause matching emqtt:subscribe(<0.373.0>, {<<"air780eg/sub">>}, 0) line 456 in gen_statem:loop_receive/3 line 3625
+2025-02-14 16:39:17.925 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:41:57.002 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:41:57.002 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:41:57.006 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:41:57.045 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-14 16:41:57.217 [info] <0.372.0>@emqpg_handler:init:65 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 16:41:57.254 [error] <0.372.0>@emqpg_handler:init:67 CRASH REPORT Process <0.372.0> with 0 neighbours crashed with reason: no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 67
+2025-02-14 16:41:57.254 [error] <0.371.0>@emqpg_handler:init:67 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 67 in context start_error
+2025-02-14 16:41:57.254 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:41:57.254 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:41:57.254 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:41:57.254 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:41:57.254 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:41:57.260 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:41:57.260 [error] <0.373.0> gen_statem <0.373.0> in state connected terminated with reason: {{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},state_functions}
+2025-02-14 16:41:57.260 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:41:57.260 [error] <0.373.0>@emqpg_handler:init:67 CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 67 in gen_statem:loop_receive/3 line 3625
+2025-02-14 16:41:57.264 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:44:09.207 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:44:09.207 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:44:09.207 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:44:09.247 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-14 16:44:09.437 [info] <0.372.0>@emqpg_handler:init:65 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 16:44:09.474 [error] <0.372.0>@emqpg_handler:init:67 CRASH REPORT Process <0.372.0> with 0 neighbours crashed with reason: no case clause matching {ok,#{via => #Port<0.19>},[1]} in emqpg_handler:init/1 line 67
+2025-02-14 16:44:09.474 [error] <0.371.0>@emqpg_handler:init:67 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no case clause matching {ok,#{via => #Port<0.19>},[1]} in emqpg_handler:init/1 line 67 in context start_error
+2025-02-14 16:44:09.475 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:44:09.475 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:44:09.475 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:44:09.475 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:44:09.475 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:44:09.485 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:44:09.485 [error] <0.373.0> gen_statem <0.373.0> in state connected terminated with reason: {{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},state_functions}
+2025-02-14 16:44:09.485 [error] <0.373.0>@emqpg_handler:init:67 CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: no case clause matching {ok,#{via => #Port<0.19>},[1]} in emqpg_handler:init/1 line 67 in gen_statem:loop_receive/3 line 3625
+2025-02-14 16:44:09.485 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:44:09.489 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:45:54.412 [debug] <0.327.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:45:54.412 [debug] <0.324.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:45:54.416 [debug] <0.333.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:45:54.549 [info] <0.352.0>@emqpg_handler:init:60 MQTT client process started: <0.353.0>
+2025-02-14 16:45:54.915 [debug] <0.320.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 16:45:55.721 [info] <0.352.0>@emqpg_handler:init:65 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 16:45:55.996 [error] <0.352.0>@emqpg_handler:init:67 CRASH REPORT Process <0.352.0> with 0 neighbours crashed with reason: no case clause matching {ok,#{via => #Port<0.19>},[1]} in emqpg_handler:init/1 line 67
+2025-02-14 16:45:55.996 [error] <0.351.0>@emqpg_handler:init:67 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no case clause matching {ok,#{via => #Port<0.19>},[1]} in emqpg_handler:init/1 line 67 in context start_error
+2025-02-14 16:45:55.996 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:45:55.997 [error] <0.349.0> CRASH REPORT Process <0.349.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:45:55.997 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:45:55.997 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:45:55.997 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:45:56.007 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:45:56.007 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:45:56.007 [error] <0.353.0> gen_statem <0.353.0> in state connected terminated with reason: {{{case_clause,{ok,#{via => #Port<0.19>},[1]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,67}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},state_functions}
+2025-02-14 16:45:56.007 [error] <0.353.0>@emqpg_handler:init:67 CRASH REPORT Process <0.353.0> with 0 neighbours exited with reason: no case clause matching {ok,#{via => #Port<0.19>},[1]} in emqpg_handler:init/1 line 67 in gen_statem:loop_receive/3 line 3625
+2025-02-14 16:45:56.012 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:47:59.390 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:47:59.390 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:47:59.390 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:47:59.435 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-14 16:47:59.855 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 16:48:00.603 [info] <0.372.0>@emqpg_handler:init:65 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 16:48:00.603 [info] <0.372.0>@emqpg_handler:init:67 Config topic: <<"air780eg/pos">>
+2025-02-14 16:48:00.639 [error] <0.372.0>@emqpg_handler:init:68 CRASH REPORT Process <0.372.0> with 0 neighbours crashed with reason: no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 68
+2025-02-14 16:48:00.639 [error] <0.371.0>@emqpg_handler:init:68 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 68 in context start_error
+2025-02-14 16:48:00.639 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:48:00.639 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:48:00.639 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:48:00.639 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:48:00.639 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:48:00.647 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:48:00.647 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:48:00.652 [error] <0.373.0> gen_statem <0.373.0> in state connected terminated with reason: {{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]},state_functions}
+2025-02-14 16:48:00.652 [error] <0.373.0>@emqpg_handler:init:68 CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 68 in gen_statem:loop_receive/3 line 3625
+2025-02-14 16:48:00.652 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 16:56:55.073 [debug] <0.327.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 16:56:55.073 [debug] <0.324.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 16:56:55.076 [debug] <0.333.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 16:56:55.217 [info] <0.352.0>@emqpg_handler:init:60 MQTT client process started: <0.353.0>
+2025-02-14 16:56:55.374 [info] <0.352.0>@emqpg_handler:init:65 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 16:56:55.374 [info] <0.352.0>@emqpg_handler:init:67 Config topic: <<"air780eg/pos">>
+2025-02-14 16:56:55.410 [error] <0.352.0>@emqpg_handler:init:68 CRASH REPORT Process <0.352.0> with 0 neighbours crashed with reason: no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 68
+2025-02-14 16:56:55.410 [error] <0.351.0>@emqpg_handler:init:68 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason no case clause matching {ok,#{via => #Port<0.19>},[0]} in emqpg_handler:init/1 line 68 in context start_error
+2025-02-14 16:56:55.410 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 16:56:55.410 [error] <0.349.0> CRASH REPORT Process <0.349.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{{case_clause,{ok,#{via => #Port<0.19>},[0]}},[{emqpg_handler,init,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,68}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,2229}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,2184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 16:56:55.410 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 16:56:55.410 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 16:56:55.410 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 16:56:55.419 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 16:56:55.419 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 16:56:55.424 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 17:01:37.549 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:01:37.549 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:01:37.552 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:01:37.590 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-14 17:01:37.762 [info] <0.372.0>@emqpg_handler:init:65 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 17:01:37.762 [info] <0.372.0>@emqpg_handler:init:67 Config topic: <<"air780eg/pos">>
+2025-02-14 17:01:37.798 [error] <0.372.0>@gen_server:init_it:2222 CRASH REPORT Process <0.372.0> with 0 neighbours exited with reason: bad return value: {ok,#{via => #Port<0.19>},[0]} in gen_server:init_it/6 line 2222
+2025-02-14 17:01:37.798 [error] <0.371.0> Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at undefined exit with reason bad return value: {ok,#{via => #Port<0.19>},[0]} in context start_error
+2025-02-14 17:01:37.798 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{bad_return_value,{ok,#{via => #Port<0.19>},[0]}}}},{emqpg_app,start,[normal,[]]}}
+2025-02-14 17:01:37.798 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,emqpg_handler,{bad_return_value,{ok,#{via => #Port<0.19>},[0]}}}},{emqpg_app,start,[normal,[]]}} in application_master:init/3 line 143
+2025-02-14 17:01:37.798 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 17:01:37.798 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 17:01:37.798 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 17:01:37.811 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 17:01:37.811 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 17:01:37.811 [error] <0.373.0> gen_statem <0.373.0> in state connected terminated with reason: bad return value: {ok,#{via => #Port<0.19>},[0]} in state_functions
+2025-02-14 17:01:37.812 [error] <0.373.0>@gen_statem:loop_receive:3625 CRASH REPORT Process <0.373.0> with 0 neighbours exited with reason: bad return value: {ok,#{via => #Port<0.19>},[0]} in gen_statem:loop_receive/3 line 3625
+2025-02-14 17:01:37.818 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 17:03:21.660 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:03:21.660 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:03:21.665 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:03:21.707 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-14 17:03:21.773 [error] emulator driver_select(0x00000172a6248950, 1096, ERL_DRV_READ, 1) by tcp_inet driver #Port<0.19> stealing control of fd=1096 from resource prim_tty:tty
+
+2025-02-14 17:03:22.155 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 17:03:22.166 [error] <0.376.0>@poolboy:new_worker:300 CRASH REPORT Process <0.376.0> with 0 neighbours crashed with reason: no match of right hand value {error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300
+2025-02-14 17:03:22.167 [error] <0.371.0>@poolboy:new_worker:300 Supervisor emqpg_sup had child pool_pg started with poolboy:start_link([{name,{local,pool_pg}},{worker_module,eadm_pgpool_worker},{size,2},{max_overflow,20}], [{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]) at undefined exit with reason no match of right hand value {error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300 in context start_error
+2025-02-14 17:03:22.167 [error] <0.369.0> CRASH REPORT Process <0.369.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,...}]}}}},...}}},...} in application_master:init/3 line 143
+2025-02-14 17:03:22.167 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,...}]}}}},...}}},...}
+2025-02-14 17:03:22.167 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 17:03:22.167 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 17:03:22.167 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 17:03:22.173 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 17:03:22.173 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 17:03:22.179 [error] <0.377.0>@poolboy:new_worker:300 gen_server <0.377.0> terminated with reason: no match of right hand value {error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300
+2025-02-14 17:03:22.179 [error] <0.377.0>@poolboy:new_worker:300 CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: no match of right hand value {error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300 in gen_server:decode_msg/9 line 2299
+2025-02-14 17:03:22.179 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 17:05:03.292 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:05:03.292 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:05:03.295 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:05:03.333 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-02-14 17:05:03.397 [error] emulator driver_select(0x0000012fe407e660, 1184, ERL_DRV_READ ERL_DRV_USE, 1) by spawn (c:/Program Files/Erlang OTP/erts-15.2.1/bin/inet_gethost) driver #Port<0.18> stealing control of fd=1184 from resource prim_tty:tty
+
+2025-02-14 17:05:03.527 [error] <0.364.0>@poolboy:new_worker:300 CRASH REPORT Process <0.364.0> with 0 neighbours crashed with reason: no match of right hand value {error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300
+2025-02-14 17:05:03.527 [error] <0.359.0>@poolboy:new_worker:300 Supervisor emqpg_sup had child pool_pg started with poolboy:start_link([{name,{local,pool_pg}},{worker_module,eadm_pgpool_worker},{size,2},{max_overflow,20}], [{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]) at undefined exit with reason no match of right hand value {error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300 in context start_error
+2025-02-14 17:05:03.528 [error] <0.357.0> CRASH REPORT Process <0.357.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,...}]}}}},...}}},...} in application_master:init/3 line 143
+2025-02-14 17:05:03.528 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,...}]}}}},...}}},...}
+2025-02-14 17:05:03.528 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 17:05:03.528 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 17:05:03.528 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 17:05:03.534 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 17:05:03.534 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 17:05:03.539 [error] <0.365.0>@poolboy:new_worker:300 gen_server <0.365.0> terminated with reason: no match of right hand value {error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300
+2025-02-14 17:05:03.539 [error] <0.365.0>@poolboy:new_worker:300 CRASH REPORT Process <0.365.0> with 0 neighbours exited with reason: no match of right hand value {error,{'EXIT',{undef,[{eadm_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300 in gen_server:decode_msg/9 line 2299
+2025-02-14 17:05:03.540 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 17:06:08.119 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:06:08.119 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:06:08.123 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:06:08.161 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-02-14 17:06:08.358 [error] <0.364.0>@poolboy:new_worker:300 CRASH REPORT Process <0.364.0> with 0 neighbours crashed with reason: no match of right hand value {error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300
+2025-02-14 17:06:08.358 [error] <0.359.0>@poolboy:new_worker:300 Supervisor emqpg_sup had child pool_pg started with poolboy:start_link([{name,{local,pool_pg}},{worker_module,eqmpg_pgpool_worker},{size,2},{max_overflow,20}], [{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]) at undefined exit with reason no match of right hand value {error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300 in context start_error
+2025-02-14 17:06:08.358 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,...}]}}}},...}}},...}
+2025-02-14 17:06:08.358 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 17:06:08.358 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 17:06:08.358 [error] <0.357.0> CRASH REPORT Process <0.357.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,...}]}}}},...}}},...} in application_master:init/3 line 143
+2025-02-14 17:06:08.358 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 17:06:08.365 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 17:06:08.365 [error] <0.365.0>@poolboy:new_worker:300 gen_server <0.365.0> terminated with reason: no match of right hand value {error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300
+2025-02-14 17:06:08.365 [error] <0.365.0>@poolboy:new_worker:300 CRASH REPORT Process <0.365.0> with 0 neighbours exited with reason: no match of right hand value {error,{'EXIT',{undef,[{eqmpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300 in gen_server:decode_msg/9 line 2299
+2025-02-14 17:06:08.365 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 17:06:08.369 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 17:06:44.770 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:06:44.770 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:06:44.774 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:06:44.809 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-02-14 17:06:45.035 [error] <0.364.0>@poolboy:new_worker:300 CRASH REPORT Process <0.364.0> with 0 neighbours crashed with reason: no match of right hand value {error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300
+2025-02-14 17:06:45.035 [error] <0.359.0>@poolboy:new_worker:300 Supervisor emqpg_sup had child pool_pg started with poolboy:start_link([{name,{local,pool_pg}},{worker_module,eqqpg_pgpool_worker},{size,2},{max_overflow,20}], [{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]) at undefined exit with reason no match of right hand value {error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300 in context start_error
+2025-02-14 17:06:45.035 [error] <0.357.0> CRASH REPORT Process <0.357.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,...}]}}}},...}}},...} in application_master:init/3 line 143
+2025-02-14 17:06:45.035 [info] <0.45.0> Application emqpg exited with reason: {{shutdown,{failed_to_start_child,pool_pg,{{badmatch,{error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,...}]}}}},...}}},...}
+2025-02-14 17:06:45.035 [info] <0.45.0> Application poolboy exited with reason: stopped
+2025-02-14 17:06:45.035 [info] <0.45.0> Application epgsql exited with reason: stopped
+2025-02-14 17:06:45.035 [info] <0.45.0> Application emqtt exited with reason: stopped
+2025-02-14 17:06:45.042 [info] <0.45.0> Application gun exited with reason: stopped
+2025-02-14 17:06:45.042 [info] <0.45.0> Application cowlib exited with reason: stopped
+2025-02-14 17:06:45.043 [error] <0.365.0>@poolboy:new_worker:300 gen_server <0.365.0> terminated with reason: no match of right hand value {error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300
+2025-02-14 17:06:45.043 [error] <0.365.0>@poolboy:new_worker:300 CRASH REPORT Process <0.365.0> with 0 neighbours exited with reason: no match of right hand value {error,{'EXIT',{undef,[{eqqpg_pgpool_worker,start_link,[[{host,"fn.wongcw.cn"},{port,5432},{database,"mqtt"},{username,"wangcw"},{password,"Mm19890425"}]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,959}]},{supervisor,handle_call,3,[{file,"supervisor.erl"},{line,985}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,2381}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2410}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}}} in poolboy:new_worker/1 line 300 in gen_server:decode_msg/9 line 2299
+2025-02-14 17:06:45.047 [info] <0.45.0> Application ranch exited with reason: stopped
+2025-02-14 17:07:26.026 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:07:26.026 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:07:26.029 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:07:26.068 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-02-14 17:07:26.519 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 17:07:26.544 [info] <0.366.0> <0.366.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.367.0>
+2025-02-14 17:07:26.733 [info] <0.369.0> <0.369.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.370.0>
+2025-02-14 17:08:52.256 [info] <0.360.0>@emqpg_handler:handle_info:93 Received message from topic <<"air780eg/pos">>: <<"550100000000013FAAAAAB19">>
+2025-02-14 17:09:40.590 [debug] <0.324.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:09:40.590 [debug] <0.327.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:09:40.594 [debug] <0.333.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:09:40.733 [info] <0.352.0>@emqpg_handler:init:60 MQTT client process started: <0.353.0>
+2025-02-14 17:09:41.093 [debug] <0.320.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 17:09:41.674 [info] <0.358.0> <0.358.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.359.0>
+2025-02-14 17:09:42.112 [info] <0.361.0> <0.361.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.362.0>
+2025-02-14 17:10:52.181 [info] <0.352.0>@emqpg_handler:handle_info:93 Received message from topic <<"air780eg/pos">>: <<"5501000000000140C000001A">>
+2025-02-14 17:12:52.239 [info] <0.352.0>@emqpg_handler:handle_info:93 Received message from topic <<"air780eg/pos">>: <<"AA0067AF0914000000000000000000000000000000">>
+2025-02-14 17:12:52.335 [info] <0.352.0>@emqpg_handler:handle_info:93 Received message from topic <<"air780eg/pos">>: <<"5501000000000140B555551B">>
+2025-02-14 17:14:52.268 [info] <0.352.0>@emqpg_handler:handle_info:93 Received message from topic <<"air780eg/pos">>: <<"550100000000014000000019">>
+2025-02-14 17:16:52.187 [info] <0.352.0>@emqpg_handler:handle_info:93 Received message from topic <<"air780eg/pos">>: <<"550100000000013FD555551B">>
+2025-02-14 17:18:52.237 [info] <0.352.0>@emqpg_handler:handle_info:93 Received message from topic <<"air780eg/pos">>: <<"5501000000000140A000001B">>
+2025-02-14 17:20:52.528 [info] <0.352.0>@emqpg_handler:handle_info:93 Received message from topic <<"air780eg/pos">>: <<"550100000000014000000018">>
+2025-02-14 17:21:44.195 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:21:44.195 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:21:44.200 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:21:44.237 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-14 17:21:44.395 [info] <0.372.0>@emqpg_handler:init:68 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 17:21:44.432 [info] <0.372.0>@emqpg_handler:init:73 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-14 17:21:44.670 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-14 17:21:44.687 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 17:21:45.111 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-14 17:22:52.168 [info] <0.372.0>@emqpg_handler:handle_info:92 Received message from topic <<"air780eg/pos">>: <<"AA0067AF0B6C000000000000000000000000000000">>
+2025-02-14 17:22:52.260 [info] <0.372.0>@emqpg_handler:handle_info:92 Received message from topic <<"air780eg/pos">>: <<"5501000000000140C0000019">>
+2025-02-14 17:24:52.465 [info] <0.372.0>@emqpg_handler:handle_info:92 Received message from topic <<"air780eg/pos">>: <<"5501000000000140C0000018">>
+2025-02-14 17:26:52.218 [info] <0.372.0>@emqpg_handler:handle_info:92 Received message from topic <<"air780eg/pos">>: <<"550100000000013FAAAAAB18">>
+2025-02-14 17:27:31.064 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:27:31.064 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:27:31.069 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:27:31.112 [info] <0.372.0>@emqpg_handler:init:57 MQTT client process started: <0.373.0>
+2025-02-14 17:27:31.571 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 17:27:32.280 [info] <0.372.0>@emqpg_handler:init:61 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 17:27:32.300 [info] <0.372.0>@emqpg_handler:init:64 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-14 17:27:32.519 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-14 17:27:34.027 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-14 17:28:52.202 [info] <0.372.0>@emqpg_handler:handle_info:83 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-14 17:30:52.477 [info] <0.372.0>@emqpg_handler:handle_info:83 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-14 17:30:57.499 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-14 17:30:57.499 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-14 17:30:57.502 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-14 17:30:57.543 [info] <0.372.0>@emqpg_handler:init:57 MQTT client process started: <0.373.0>
+2025-02-14 17:30:57.719 [info] <0.372.0>@emqpg_handler:init:61 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-14 17:30:57.766 [info] <0.372.0>@emqpg_handler:init:64 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-14 17:30:57.991 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-14 17:30:58.030 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-14 17:30:58.218 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-24 14:23:51.211 [debug] <0.2684.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-24 14:23:51.211 [debug] <0.2681.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-24 14:23:51.215 [debug] <0.2690.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-24 14:23:51.257 [info] <0.2709.0>@emqpg_handler:init:60 MQTT client process started: <0.2710.0>
+2025-02-24 14:23:51.475 [info] <0.2709.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:23:51.520 [info] <0.2709.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:23:51.701 [debug] <0.2677.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-24 14:23:51.807 [info] <0.2715.0> <0.2715.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.2716.0>
+2025-02-24 14:23:52.289 [info] <0.2718.0> <0.2718.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.2719.0>
+2025-02-24 14:25:42.917 [info] <0.2709.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:27:43.003 [info] <0.2709.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:29:43.112 [info] <0.2709.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:29:43.112 [info] <0.2709.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:31:42.931 [info] <0.2709.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:33:43.349 [info] <0.2709.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:35:42.985 [info] <0.2709.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:37:42.898 [info] <0.2709.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:41:32.845 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-24 14:41:32.845 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-24 14:41:32.851 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-24 14:41:32.895 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-24 14:41:33.248 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:41:33.295 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:41:33.343 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-24 14:41:34.062 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-24 14:41:34.271 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-24 14:41:50.761 [info] <0.372.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:43:05.494 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-24 14:43:05.494 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-24 14:43:05.498 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-24 14:43:05.538 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-24 14:43:05.734 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:43:05.777 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:43:05.997 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-24 14:43:06.595 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-24 14:43:06.814 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-24 14:43:50.669 [info] <0.372.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:44:00.289 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-24 14:44:00.289 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-24 14:44:00.294 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-24 14:44:00.335 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-24 14:44:00.512 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:44:00.553 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:44:00.787 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-24 14:44:01.245 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-24 14:44:01.461 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-24 14:45:50.918 [info] <0.372.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 14:46:48.438 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-24 14:46:48.438 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-24 14:46:48.444 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-24 14:46:48.483 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-24 14:46:48.662 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:46:48.708 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:46:48.932 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-24 14:46:48.960 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-24 14:46:50.523 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-24 14:47:50.754 [info] <0.372.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 14:47:50.776 [error] <0.372.0>@emqpg_handler:parse_hex_string:132 gen_server emqpg_handler terminated with reason: no match of right hand value <<"010000000001402AAAAB1F">> in emqpg_handler:parse_hex_string/1 line 132
+2025-02-24 14:47:50.776 [error] <0.372.0>@emqpg_handler:parse_hex_string:132 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"010000000001402AAAAB1F">> in emqpg_handler:parse_hex_string/1 line 132
+2025-02-24 14:47:50.776 [error] <0.371.0>@emqpg_handler:parse_hex_string:132 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.372.0> exit with reason no match of right hand value <<"010000000001402AAAAB1F">> in emqpg_handler:parse_hex_string/1 line 132 in context child_terminated
+2025-02-24 14:47:50.776 [info] <0.384.0>@emqpg_handler:init:60 MQTT client process started: <0.385.0>
+2025-02-24 14:47:50.870 [info] <0.384.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:47:50.912 [info] <0.384.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:49:50.653 [info] <0.384.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 14:49:50.653 [error] <0.384.0>@emqpg_handler:parse_hex_string:127 gen_server emqpg_handler terminated with reason: no match of right hand value <<"0067BC168D000000000000000000000000000000">> in emqpg_handler:parse_hex_string/1 line 127
+2025-02-24 14:49:50.653 [error] <0.384.0>@emqpg_handler:parse_hex_string:127 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"0067BC168D000000000000000000000000000000">> in emqpg_handler:parse_hex_string/1 line 127
+2025-02-24 14:49:50.653 [info] <0.387.0>@emqpg_handler:init:60 MQTT client process started: <0.388.0>
+2025-02-24 14:49:50.653 [error] <0.371.0>@emqpg_handler:parse_hex_string:127 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.384.0> exit with reason no match of right hand value <<"0067BC168D000000000000000000000000000000">> in emqpg_handler:parse_hex_string/1 line 127 in context child_terminated
+2025-02-24 14:49:51.019 [info] <0.387.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:49:51.065 [info] <0.387.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:51:50.770 [info] <0.387.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 14:51:50.771 [error] <0.387.0>@emqpg_handler:parse_hex_string:132 gen_server emqpg_handler terminated with reason: no match of right hand value <<"010000000001402AAAAB1D">> in emqpg_handler:parse_hex_string/1 line 132
+2025-02-24 14:51:50.771 [error] <0.387.0>@emqpg_handler:parse_hex_string:132 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"010000000001402AAAAB1D">> in emqpg_handler:parse_hex_string/1 line 132
+2025-02-24 14:51:50.771 [error] <0.371.0>@emqpg_handler:parse_hex_string:132 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.387.0> exit with reason no match of right hand value <<"010000000001402AAAAB1D">> in emqpg_handler:parse_hex_string/1 line 132 in context child_terminated
+2025-02-24 14:51:50.771 [info] <0.390.0>@emqpg_handler:init:60 MQTT client process started: <0.391.0>
+2025-02-24 14:51:50.870 [info] <0.390.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:51:50.913 [info] <0.390.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:53:50.800 [info] <0.390.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 14:53:50.800 [error] <0.390.0>@emqpg_handler:parse_hex_string:132 gen_server emqpg_handler terminated with reason: no match of right hand value <<"010000000001402AAAAB1B">> in emqpg_handler:parse_hex_string/1 line 132
+2025-02-24 14:53:50.800 [error] <0.390.0>@emqpg_handler:parse_hex_string:132 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"010000000001402AAAAB1B">> in emqpg_handler:parse_hex_string/1 line 132
+2025-02-24 14:53:50.801 [error] <0.371.0>@emqpg_handler:parse_hex_string:132 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.390.0> exit with reason no match of right hand value <<"010000000001402AAAAB1B">> in emqpg_handler:parse_hex_string/1 line 132 in context child_terminated
+2025-02-24 14:53:50.801 [info] <0.393.0>@emqpg_handler:init:60 MQTT client process started: <0.394.0>
+2025-02-24 14:53:50.911 [info] <0.393.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:53:50.957 [info] <0.393.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:55:50.988 [info] <0.393.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 14:55:50.988 [error] <0.393.0>@emqpg_handler:parse_hex_string:132 gen_server emqpg_handler terminated with reason: no match of right hand value <<"0100000000014040000019">> in emqpg_handler:parse_hex_string/1 line 132
+2025-02-24 14:55:50.988 [error] <0.393.0>@emqpg_handler:parse_hex_string:132 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"0100000000014040000019">> in emqpg_handler:parse_hex_string/1 line 132
+2025-02-24 14:55:50.988 [error] <0.371.0>@emqpg_handler:parse_hex_string:132 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.393.0> exit with reason no match of right hand value <<"0100000000014040000019">> in emqpg_handler:parse_hex_string/1 line 132 in context child_terminated
+2025-02-24 14:55:50.988 [info] <0.396.0>@emqpg_handler:init:60 MQTT client process started: <0.397.0>
+2025-02-24 14:55:51.096 [info] <0.396.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:55:51.140 [info] <0.396.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:57:47.572 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-24 14:57:47.572 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-24 14:57:47.576 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-24 14:57:47.615 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-24 14:57:47.794 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:57:48.073 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-24 14:57:48.370 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:57:48.620 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-24 14:57:48.621 [error] emulator driver_select(0x000001765b375b40, 1092, ERL_DRV_READ, 1) by tcp_inet driver #Port<0.21> stealing control of fd=1092 from resource prim_tty:tty
+
+2025-02-24 14:57:48.828 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-24 14:57:51.389 [info] <0.372.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 14:57:51.392 [error] <0.372.0>@emqpg_handler:parse_hex_string:134 gen_server emqpg_handler terminated with reason: no match of right hand value <<"010000000001408AAAAB1C">> in emqpg_handler:parse_hex_string/1 line 134
+2025-02-24 14:57:51.393 [error] <0.372.0>@emqpg_handler:parse_hex_string:134 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"010000000001408AAAAB1C">> in emqpg_handler:parse_hex_string/1 line 134
+2025-02-24 14:57:51.393 [error] <0.371.0>@emqpg_handler:parse_hex_string:134 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.372.0> exit with reason no match of right hand value <<"010000000001408AAAAB1C">> in emqpg_handler:parse_hex_string/1 line 134 in context child_terminated
+2025-02-24 14:57:51.393 [info] <0.384.0>@emqpg_handler:init:60 MQTT client process started: <0.385.0>
+2025-02-24 14:57:51.740 [info] <0.384.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:57:51.794 [info] <0.384.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 14:59:51.653 [info] <0.384.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 14:59:51.653 [error] <0.384.0>@emqpg_handler:parse_hex_string:128 gen_server emqpg_handler terminated with reason: no match of right hand value <<"0067BC18E6000000000000000000000000000000">> in emqpg_handler:parse_hex_string/1 line 128
+2025-02-24 14:59:51.654 [error] <0.384.0>@emqpg_handler:parse_hex_string:128 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"0067BC18E6000000000000000000000000000000">> in emqpg_handler:parse_hex_string/1 line 128
+2025-02-24 14:59:51.654 [info] <0.387.0>@emqpg_handler:init:60 MQTT client process started: <0.388.0>
+2025-02-24 14:59:51.654 [error] <0.371.0>@emqpg_handler:parse_hex_string:128 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.384.0> exit with reason no match of right hand value <<"0067BC18E6000000000000000000000000000000">> in emqpg_handler:parse_hex_string/1 line 128 in context child_terminated
+2025-02-24 14:59:51.756 [info] <0.387.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 14:59:51.800 [info] <0.387.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 15:00:19.941 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-24 15:00:19.941 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-24 15:00:19.946 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-24 15:00:19.989 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-24 15:00:20.435 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-24 15:00:21.189 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 15:00:21.236 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 15:00:21.486 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-24 15:00:21.704 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-24 15:01:51.883 [info] <0.372.0>@emqpg_handler:handle_info:86 Received message from topic <<"air780eg/pos">>: {error,unknown_format}
+2025-02-24 15:03:02.288 [debug] <0.347.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-02-24 15:03:02.288 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-02-24 15:03:02.291 [debug] <0.353.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-02-24 15:03:02.332 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-02-24 15:03:02.545 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 15:03:02.585 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 15:03:02.794 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-02-24 15:03:03.083 [info] <0.378.0> <0.378.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.379.0>
+2025-02-24 15:03:03.269 [info] <0.381.0> <0.381.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.382.0>
+2025-02-24 15:03:52.278 [info] <0.372.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 15:03:52.282 [error] <0.372.0>@emqpg_handler:parse_hex_string:134 gen_server emqpg_handler terminated with reason: no match of right hand value <<"010000000001402AAAAB14">> in emqpg_handler:parse_hex_string/1 line 134
+2025-02-24 15:03:52.283 [error] <0.372.0>@emqpg_handler:parse_hex_string:134 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"010000000001402AAAAB14">> in emqpg_handler:parse_hex_string/1 line 134
+2025-02-24 15:03:52.283 [error] <0.371.0>@emqpg_handler:parse_hex_string:134 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.372.0> exit with reason no match of right hand value <<"010000000001402AAAAB14">> in emqpg_handler:parse_hex_string/1 line 134 in context child_terminated
+2025-02-24 15:03:52.283 [info] <0.384.0>@emqpg_handler:init:60 MQTT client process started: <0.385.0>
+2025-02-24 15:03:52.377 [info] <0.384.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 15:03:52.422 [info] <0.384.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 15:06:53.994 [info] <0.384.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 15:06:53.994 [error] <0.384.0>@emqpg_handler:parse_hex_string:134 gen_server emqpg_handler terminated with reason: no match of right hand value <<"010000000001402AAAAB1D">> in emqpg_handler:parse_hex_string/1 line 134
+2025-02-24 15:06:53.995 [error] <0.384.0>@emqpg_handler:parse_hex_string:134 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"010000000001402AAAAB1D">> in emqpg_handler:parse_hex_string/1 line 134
+2025-02-24 15:06:53.995 [error] <0.371.0>@emqpg_handler:parse_hex_string:134 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.384.0> exit with reason no match of right hand value <<"010000000001402AAAAB1D">> in emqpg_handler:parse_hex_string/1 line 134 in context child_terminated
+2025-02-24 15:06:53.995 [info] <0.387.0>@emqpg_handler:init:60 MQTT client process started: <0.388.0>
+2025-02-24 15:06:54.097 [info] <0.387.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 15:06:54.137 [info] <0.387.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-02-24 15:08:53.879 [info] <0.387.0>@emqpg_handler:terminate:93 Handler terminating.
+2025-02-24 15:08:53.879 [error] <0.387.0>@emqpg_handler:parse_hex_string:134 gen_server emqpg_handler terminated with reason: no match of right hand value <<"0100000000014095555516">> in emqpg_handler:parse_hex_string/1 line 134
+2025-02-24 15:08:53.880 [error] <0.387.0>@emqpg_handler:parse_hex_string:134 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value <<"0100000000014095555516">> in emqpg_handler:parse_hex_string/1 line 134
+2025-02-24 15:08:53.880 [error] <0.371.0>@emqpg_handler:parse_hex_string:134 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.387.0> exit with reason no match of right hand value <<"0100000000014095555516">> in emqpg_handler:parse_hex_string/1 line 134 in context child_terminated
+2025-02-24 15:08:53.880 [info] <0.390.0>@emqpg_handler:init:60 MQTT client process started: <0.391.0>
+2025-02-24 15:08:53.972 [info] <0.390.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-02-24 15:08:54.016 [info] <0.390.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>

@@ -41,7 +41,7 @@ init([]) ->
     PoolArgs = [{name, {local, PoolName}},
       {worker_module, emqpg_pgpool_worker}] ++ SizeArgs,
     poolboy:child_spec(PoolName, PoolArgs, WorkerArgs)
-                       end, Pools),
+                      end, Pools),
   % Handler
   MqttHandlerSpec = {emqpg_handler, {emqpg_handler, start_link, []},
     permanent, 5000, worker, [emqpg_handler]},
