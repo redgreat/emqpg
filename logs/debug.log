@@ -521,3 +521,116 @@
 2025-02-24 15:08:53.880 [info] <0.390.0>@emqpg_handler:init:60 MQTT client process started: <0.391.0>
 2025-02-24 15:08:53.972 [info] <0.390.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
 2025-02-24 15:08:54.016 [info] <0.390.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-03-01 16:52:38.947 [debug] <0.369.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-01 16:52:38.947 [debug] <0.360.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-01 16:52:38.947 [debug] <0.363.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-01 16:52:39.260 [info] <0.388.0>@emqpg_handler:init:60 MQTT client process started: <0.389.0>
+2025-03-01 16:52:39.406 [debug] <0.356.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-01 16:52:39.500 [info] <0.388.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 16:52:39.799 [info] <0.388.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"air780eg/pos">>
+2025-03-01 16:52:40.099 [info] <0.394.0> <0.394.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.395.0>
+2025-03-01 16:52:40.546 [info] <0.397.0> <0.397.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.398.0>
+2025-03-01 16:55:25.035 [debug] <0.324.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-01 16:55:25.035 [debug] <0.327.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-01 16:55:25.038 [debug] <0.333.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-01 16:55:25.166 [info] <0.352.0>@emqpg_handler:init:60 MQTT client process started: <0.353.0>
+2025-03-01 16:55:25.325 [info] <0.352.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 16:55:25.368 [info] <0.352.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 16:55:25.540 [debug] <0.320.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-01 16:55:26.592 [info] <0.358.0> <0.358.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.359.0>
+2025-03-01 16:55:26.828 [info] <0.361.0> <0.361.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.362.0>
+2025-03-01 16:56:24.474 [info] <0.352.0>@emqpg_handler:handle_info:86 Received message from topic <<"pos/gnss">>: {ok,{longitude,120.5211292,latitude,36.4116155}}
+2025-03-01 16:57:30.318 [info] <0.352.0>@emqpg_handler:handle_info:86 Received message from topic <<"pos/gnss">>: {ok,{longitude,120.5211292,latitude,36.4116155}}
+2025-03-01 16:58:50.418 [info] <0.352.0>@emqpg_handler:handle_info:86 Received message from topic <<"pos/gnss">>: {ok,{longitude,120.5211292,latitude,36.4116155}}
+2025-03-01 17:00:10.426 [info] <0.352.0>@emqpg_handler:handle_info:86 Received message from topic <<"pos/gnss">>: {ok,{longitude,120.5211292,latitude,36.4116155}}
+2025-03-01 17:01:30.434 [info] <0.352.0>@emqpg_handler:handle_info:86 Received message from topic <<"pos/gnss">>: {ok,{longitude,120.5211292,latitude,36.4116155}}
+2025-03-01 17:02:50.340 [info] <0.352.0>@emqpg_handler:handle_info:86 Received message from topic <<"pos/gnss">>: {ok,{longitude,120.5211292,latitude,36.4116155}}
+2025-03-01 17:04:10.426 [info] <0.352.0>@emqpg_handler:handle_info:86 Received message from topic <<"pos/gnss">>: {ok,{longitude,120.5211292,latitude,36.4116155}}
+2025-03-01 17:05:30.496 [info] <0.352.0>@emqpg_handler:handle_info:86 Received message from topic <<"pos/gnss">>: {ok,{longitude,120.5211292,latitude,36.4116155}}
+2025-03-01 17:06:40.564 [info] <0.352.0>@emqpg_handler:handle_info:86 Received message from topic <<"pos/gnss">>: {ok,{longitude,120.5211292,latitude,36.4116155}}
+2025-03-01 17:07:22.573 [debug] <0.352.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-01 17:07:22.573 [debug] <0.355.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-01 17:07:22.577 [debug] <0.361.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-01 17:07:22.615 [info] <0.380.0>@emqpg_handler:init:60 MQTT client process started: <0.381.0>
+2025-03-01 17:07:23.078 [debug] <0.348.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-01 17:07:23.777 [info] <0.380.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:07:23.819 [info] <0.380.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:07:24.041 [info] <0.386.0> <0.386.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.387.0>
+2025-03-01 17:07:25.749 [info] <0.389.0> <0.389.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.390.0>
+2025-03-01 17:08:00.742 [info] <0.380.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lat:36.4116155, Lng: 120.5211292
+2025-03-01 17:09:20.734 [info] <0.380.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lat:36.4116155, Lng: 120.5211292
+2025-03-01 17:10:40.733 [info] <0.380.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lat:36.4116155, Lng: 120.5211292
+2025-03-01 17:12:00.753 [info] <0.380.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lat:36.4116155, Lng: 120.5211292
+2025-03-01 17:13:20.970 [info] <0.380.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lat:36.4116155, Lng: 120.5211292
+2025-03-01 17:14:40.775 [info] <0.380.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lat:36.4116155, Lng: 120.5211292
+2025-03-01 17:15:15.358 [debug] <0.363.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-01 17:15:15.358 [debug] <0.360.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-01 17:15:15.362 [debug] <0.369.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-01 17:15:15.400 [info] <0.388.0>@emqpg_handler:init:60 MQTT client process started: <0.389.0>
+2025-03-01 17:15:15.555 [info] <0.388.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:15:15.595 [info] <0.388.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:15:15.857 [info] <0.394.0> <0.394.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.395.0>
+2025-03-01 17:15:15.857 [debug] <0.356.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-01 17:15:16.060 [info] <0.397.0> <0.397.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.398.0>
+2025-03-01 17:16:03.955 [info] <0.388.0>@emqpg_handler:terminate:102 Handler terminating.
+2025-03-01 17:16:03.974 [error] <0.388.0>@emqpg_geo:convertlat:61 gen_server emqpg_handler terminated with reason: call to undefined function math:abs/1 from emqpg_geo:convertlat/2 line 61
+2025-03-01 17:16:03.974 [error] <0.388.0>@math:abs CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: call to undefined function math:abs(-68.58838449999999)
+2025-03-01 17:16:03.974 [error] <0.387.0>@math:abs Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.388.0> exit with reason call to undefined function math:abs(-68.58838449999999) in context child_terminated
+2025-03-01 17:16:03.974 [info] <0.400.0>@emqpg_handler:init:60 MQTT client process started: <0.401.0>
+2025-03-01 17:16:04.066 [info] <0.400.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:16:04.107 [info] <0.400.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:17:24.204 [info] <0.400.0>@emqpg_handler:terminate:102 Handler terminating.
+2025-03-01 17:17:24.204 [error] <0.400.0>@emqpg_geo:convertlat:61 gen_server emqpg_handler terminated with reason: call to undefined function math:abs/1 from emqpg_geo:convertlat/2 line 61
+2025-03-01 17:17:24.205 [error] <0.400.0>@math:abs CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: call to undefined function math:abs(-68.58838449999999)
+2025-03-01 17:17:24.205 [error] <0.387.0>@math:abs Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.400.0> exit with reason call to undefined function math:abs(-68.58838449999999) in context child_terminated
+2025-03-01 17:17:24.205 [info] <0.403.0>@emqpg_handler:init:60 MQTT client process started: <0.404.0>
+2025-03-01 17:17:24.373 [info] <0.403.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:17:24.415 [info] <0.403.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:18:05.180 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-01 17:18:05.180 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-01 17:18:05.185 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-01 17:18:05.225 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-01 17:18:05.391 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:18:05.430 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:18:05.678 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-01 17:18:06.721 [info] <0.366.0> <0.366.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.367.0>
+2025-03-01 17:18:06.914 [info] <0.369.0> <0.369.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.370.0>
+2025-03-01 17:18:30.242 [info] <0.360.0>@emqpg_handler:terminate:102 Handler terminating.
+2025-03-01 17:18:30.248 [error] <0.360.0>@emqpg_geo:wgs84_to_gcj02:38 gen_server emqpg_handler terminated with reason: no match of right hand value 0.9950329309088551 in emqpg_geo:wgs84_to_gcj02/1 line 38
+2025-03-01 17:18:30.248 [error] <0.360.0>@emqpg_geo:wgs84_to_gcj02:38 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value 0.9950329309088551 in emqpg_geo:wgs84_to_gcj02/1 line 38
+2025-03-01 17:18:30.248 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-03-01 17:18:30.248 [error] <0.359.0>@emqpg_geo:wgs84_to_gcj02:38 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.360.0> exit with reason no match of right hand value 0.9950329309088551 in emqpg_geo:wgs84_to_gcj02/1 line 38 in context child_terminated
+2025-03-01 17:18:30.337 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:18:30.378 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:19:50.569 [info] <0.372.0>@emqpg_handler:terminate:102 Handler terminating.
+2025-03-01 17:19:50.569 [info] <0.374.0>@emqpg_handler:init:60 MQTT client process started: <0.375.0>
+2025-03-01 17:19:50.569 [error] <0.372.0>@emqpg_geo:wgs84_to_gcj02:38 gen_server emqpg_handler terminated with reason: no match of right hand value 0.9950329309088551 in emqpg_geo:wgs84_to_gcj02/1 line 38
+2025-03-01 17:19:50.569 [error] <0.372.0>@emqpg_geo:wgs84_to_gcj02:38 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value 0.9950329309088551 in emqpg_geo:wgs84_to_gcj02/1 line 38
+2025-03-01 17:19:50.569 [error] <0.359.0>@emqpg_geo:wgs84_to_gcj02:38 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.372.0> exit with reason no match of right hand value 0.9950329309088551 in emqpg_geo:wgs84_to_gcj02/1 line 38 in context child_terminated
+2025-03-01 17:19:50.666 [info] <0.374.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:19:50.707 [info] <0.374.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:20:58.763 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-01 17:20:58.764 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-01 17:20:58.768 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-01 17:20:58.807 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-01 17:20:58.987 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:20:59.030 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:20:59.258 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-01 17:20:59.539 [info] <0.366.0> <0.366.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.367.0>
+2025-03-01 17:20:59.753 [info] <0.369.0> <0.369.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.370.0>
+2025-03-01 17:21:10.465 [info] <0.360.0>@emqpg_handler:terminate:102 Handler terminating.
+2025-03-01 17:21:10.467 [error] <0.360.0>@emqpg_geo:wgs84_to_gcj02:40 gen_server emqpg_handler terminated with reason: no match of right hand value 0.010265994065576562 in emqpg_geo:wgs84_to_gcj02/1 line 40
+2025-03-01 17:21:10.467 [error] <0.360.0>@emqpg_geo:wgs84_to_gcj02:40 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no match of right hand value 0.010265994065576562 in emqpg_geo:wgs84_to_gcj02/1 line 40
+2025-03-01 17:21:10.467 [error] <0.359.0>@emqpg_geo:wgs84_to_gcj02:40 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.360.0> exit with reason no match of right hand value 0.010265994065576562 in emqpg_geo:wgs84_to_gcj02/1 line 40 in context child_terminated
+2025-03-01 17:21:10.467 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-03-01 17:21:11.564 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:21:11.605 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:21:56.634 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-01 17:21:56.634 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-01 17:21:56.638 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-01 17:21:56.679 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-01 17:21:56.851 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-01 17:21:56.898 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-01 17:21:57.127 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-01 17:21:58.348 [info] <0.366.0> <0.366.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.367.0>
+2025-03-01 17:21:58.548 [info] <0.369.0> <0.369.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.370.0>

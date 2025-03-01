@@ -1333,3 +1333,153 @@ driver_select(0x000001765b375b40, 1092, ERL_DRV_READ, 1) by tcp_inet driver #Por
      Reason:     {{badmatch,<<"0100000000014095555516">>},[{emqpg_handler,parse_hex_string,1,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,134}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,85}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
      Offender:   [{pid,<0.387.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
 
+2025-03-01 17:16:03 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.19>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"pos/gnss">>,payload => <<"120.5211292_036.4116155">>,client_pid => <0.389.0>}}
+** When Server state == #{mqtt_client => <0.389.0>}
+** Reason for termination ==
+** {'function not exported',[{math,abs,[-68.58838449999999],[]},{emqpg_geo,convertlat,2,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,61}]},{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,34}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-03-01 17:16:03 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.388.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {undef,[{math,abs,[-68.58838449999999],[]},{emqpg_geo,convertlat,2,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,61}]},{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,34}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.386.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.387.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 3529
+  neighbours:
+2025-03-01 17:16:03 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{math,abs,[-68.58838449999999],[]},{emqpg_geo,convertlat,2,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,61}]},{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,34}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.388.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-03-01 17:17:24 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.22>,qos => 0,retain => false,properties => undefined,packet_id => undefined,topic => <<"pos/gnss">>,payload => <<"120.5211292_036.4116155">>,client_pid => <0.401.0>}}
+** When Server state == #{mqtt_client => <0.401.0>}
+** Reason for termination ==
+** {'function not exported',[{math,abs,[-68.58838449999999],[]},{emqpg_geo,convertlat,2,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,61}]},{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,34}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-03-01 17:17:24 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.400.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {undef,[{math,abs,[-68.58838449999999],[]},{emqpg_geo,convertlat,2,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,61}]},{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,34}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.386.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.387.0>,<0.401.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 29
+    reductions: 2202
+  neighbours:
+2025-03-01 17:17:24 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{math,abs,[-68.58838449999999],[]},{emqpg_geo,convertlat,2,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,61}]},{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,34}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.400.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-03-01 17:18:30 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.19>,topic => <<"pos/gnss">>,payload => <<"120.5211292_036.4116155">>,properties => undefined,qos => 0,retain => false,packet_id => undefined,client_pid => <0.361.0>}}
+** When Server state == #{mqtt_client => <0.361.0>}
+** Reason for termination ==
+** {{badmatch,0.9950329309088551},[{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,38}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-03-01 17:18:30 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.360.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,0.9950329309088551},[{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,38}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.358.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.359.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 2982
+  neighbours:
+2025-03-01 17:18:30 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,0.9950329309088551},[{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,38}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.360.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-03-01 17:19:50 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.22>,topic => <<"pos/gnss">>,payload => <<"120.5211292_036.4116155">>,properties => undefined,qos => 0,retain => false,packet_id => undefined,client_pid => <0.373.0>}}
+** When Server state == #{mqtt_client => <0.373.0>}
+** Reason for termination ==
+** {{badmatch,0.9950329309088551},[{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,38}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-03-01 17:19:50 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.372.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,0.9950329309088551},[{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,38}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.358.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.359.0>,<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 29
+    reductions: 2225
+  neighbours:
+2025-03-01 17:19:50 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,0.9950329309088551},[{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,38}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.372.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2025-03-01 17:21:10 =ERROR REPORT====
+** Generic server emqpg_handler terminating 
+** Last message in was {publish,#{dup => false,via => #Port<0.19>,topic => <<"pos/gnss">>,payload => <<"120.5211292_036.4116155">>,properties => undefined,qos => 0,retain => false,packet_id => undefined,client_pid => <0.361.0>}}
+** When Server state == #{mqtt_client => <0.361.0>}
+** Reason for termination ==
+** {{badmatch,0.010265994065576562},[{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,40}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+2025-03-01 17:21:10 =CRASH REPORT====
+  crasher:
+    initial call: emqpg_handler:init/1
+    pid: <0.360.0>
+    registered_name: emqpg_handler
+    process_label: undefined
+    exception error: {{badmatch,0.010265994065576562},[{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,40}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+    ancestors: [emqpg_sup,<0.358.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.359.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 2987
+  neighbours:
+2025-03-01 17:21:10 =SUPERVISOR REPORT====
+     Supervisor: {local,emqpg_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,0.010265994065576562},[{emqpg_geo,wgs84_to_gcj02,1,[{file,"d:/github/emqpg/src/emqpg_geo.erl"},{line,40}]},{emqpg_handler,handle_info,2,[{file,"d:/github/emqpg/src/emqpg_handler.erl"},{line,87}]},{gen_server,try_handle_info,3,[{file,"gen_server.erl"},{line,2345}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,2433}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,329}]}]}
+     Offender:   [{pid,<0.360.0>},{id,emqpg_handler},{mfargs,{emqpg_handler,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+

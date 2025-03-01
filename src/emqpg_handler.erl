@@ -82,8 +82,17 @@ handle_cast(_Msg, State) ->
   {noreply, State}.
 
 handle_info({publish, #{payload := Payload, topic := Topic}}, State) ->
-  Msg = parse_message(Payload),
-  lager:info("Received message from topic ~p: ~p", [Topic, Msg]),
+  case parse_message(Payload) of
+    {Lng, Lat} ->
+      case emqpg_geo:wgs84_to_gcj02({Lng, Lat}) of 
+        {LngGcj02, LatGcj02} ->
+          lager:info("Received message from topic ~p: Lng:~p, Lat: ~p~n", [Topic, LngGcj02, LatGcj02]);
+        {error, Reason} ->
+          lager:error("Failed to convert coordinates: ~p", [Reason])
+      end;
+    {error, Reason} ->
+      lager:error("Failed to parse message: ~p", [Reason])
+  end,
   {noreply, State};
 
 handle_info(_Info, State) ->
@@ -107,9 +116,35 @@ code_change(_OldVsn, State, _Extra) ->
 parse_message(<<>>) ->
   {error, empty_message};
 parse_message(Binary) when is_binary(Binary) ->
-  parse_hex_string(Binary);
+  case binary_to_list(Binary) of
+    [] -> {error, empty_message};
+    Str -> parse_coordinate_string(Str)
+  end;
 parse_message(_) ->
   {error, invalid_format}.
+
+%% 解析经纬度字符串（格式："经度_纬度"）
+parse_coordinate_string(Str) ->
+  try
+    case string:split(Str, "_") of
+      [LongStr, LatStr] ->
+        Long = list_to_float(LongStr),
+        Lat = list_to_float(LatStr),
+        case validate_coordinates(Long, Lat) of
+          true -> {Lat, Long};
+          false -> {error, invalid_coordinate_range}
+        end;
+      _ ->
+        parse_hex_string(list_to_binary(Str))
+    end
+  catch
+    error:_ -> {error, invalid_coordinate_format}
+  end.
+
+%% 验证经纬度范围
+validate_coordinates(Long, Lat) ->
+  Long >= -180 andalso Long =< 180 andalso
+  Lat >= -90 andalso Lat =< 90.
 
 %% 将二进制转换为十六进制字符串
 binary_to_hex(Binary) ->
