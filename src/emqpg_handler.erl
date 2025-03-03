@@ -24,7 +24,7 @@
 %%%===================================================================
 %%% 资源
 %%%===================================================================
--include_lib("emqtt/include/emqtt.hrl").
+% -include_lib("emqtt/include/emqtt.hrl").
 
 %%%===================================================================
 %%% API 函数
@@ -57,21 +57,25 @@ init([]) ->
   ],
 
   {ok, ClientPid} = emqtt:start_link(Options),
-  lager:info("MQTT client process started: ~p", [ClientPid]),
+  lager:info("MQTT client process started: ~p~n", [ClientPid]),
     
   case emqtt:connect(ClientPid) of
     {ok, _} ->
-      lager:info("Connected to EMQX broker at ~p:~p", [Host, Port]),
+      lager:info("Connected to EMQX broker at ~p:~p~n", [Host, Port]),
       case emqtt:subscribe(ClientPid, Topic, 0) of
         {ok, _, _} ->
-          lager:info("Subscribed to MQTT topic: ~p", [Topic]),
-          {ok, #{mqtt_client => ClientPid}};
+          lager:info("Subscribed to MQTT topic: ~p~n", [Topic]),
+          % 初始化状态，增加last_location和last_timestamp字段
+          {ok, #{mqtt_client => ClientPid, 
+                 last_location => undefined, 
+                 last_timestamp => undefined,
+                 last_alert_time => 0}};
         {error, Reason} ->
-          lager:error("Failed to subscribe to topic ~p: ~p", [Topic, Reason]),
+          lager:error("Failed to subscribe to topic ~p: ~p~n", [Topic, Reason]),
           {stop, {failed_to_subscribe, Reason}}
       end;
     {error, Reason} ->
-      lager:error("Failed to connect to EMQX broker: ~p", [Reason]),
+      lager:error("Failed to connect to EMQX broker: ~p~n", [Reason]),
       {stop, {failed_to_connect, Reason}}
   end.
 
@@ -84,16 +88,44 @@ handle_cast(_Msg, State) ->
 handle_info({publish, #{payload := Payload, topic := Topic}}, State) ->
   case parse_message(Payload) of
     {Lng, Lat} ->
-      case emqpg_geo:wgs84_to_gcj02({Lng, Lat}) of 
-        {LngGcj02, LatGcj02} ->
-          lager:info("Received message from topic ~p: Lng:~p, Lat: ~p~n", [Topic, LngGcj02, LatGcj02]);
-        {error, Reason} ->
-          lager:error("Failed to convert coordinates: ~p", [Reason])
-      end;
+      % 获取当前时间戳
+      CurrentTimestamp = erlang:system_time(second),
+      % 获取上次位置和时间戳
+      LastLocation = maps:get(last_location, State, undefined),
+      LastTimestamp = maps:get(last_timestamp, State, undefined),
+      
+      {NewState, MovementInfo} = calculate_movement({Lng, Lat}, CurrentTimestamp, LastLocation, LastTimestamp, State),
+      
+      case MovementInfo of
+        {Distance, Speed} ->
+          if 
+            Speed > 25 ->
+              CurrentTime = erlang:system_time(second),
+              LastAlertTime = maps:get(last_alert_time, State, 0),
+              if
+                CurrentTime - LastAlertTime > 300 ->
+                  emqpg_push:send_msg(unicode:characters_to_binary(io_lib:format("电动车超速啦，当前速度：~p km/h", [Speed]), utf8)),
+                  NewAlertTime = CurrentTime;
+                true ->
+                  NewAlertTime = LastAlertTime
+              end,
+              % lager:info("Movement detected: Speed=~p km/h", [Speed]),
+              {noreply, State#{last_alert_time => NewAlertTime}};
+            true -> ok
+          end,
+          if
+            Distance > 10 ->
+              emqpg_db:db_pg_gnss(Topic, {Lng, Lat});
+              % lager:info("Movement detected: Distance=~p meters", [Distance]);
+            true -> ok
+          end
+      end,
+      
+      {noreply, NewState};
     {error, Reason} ->
-      lager:error("Failed to parse message: ~p", [Reason])
-  end,
-  {noreply, State};
+      lager:error("Failed to parse message: ~p~n", [Reason]),
+      {noreply, State}
+  end;
 
 handle_info(_Info, State) ->
   {noreply, State}.
@@ -127,41 +159,25 @@ parse_message(_) ->
 parse_coordinate_string(Str) ->
   try
     case string:split(Str, "_") of
-      [LongStr, LatStr] ->
-        Long = list_to_float(LongStr),
+      [LngStr, LatStr] ->
+        Lng = list_to_float(LngStr),
         Lat = list_to_float(LatStr),
-        case validate_coordinates(Long, Lat) of
-          true -> {Lat, Long};
-          false -> {error, invalid_coordinate_range}
-        end;
+        emqpg_geo:wgs84_to_gcj02({Lng, Lat});
       _ ->
-        parse_hex_string(list_to_binary(Str))
+        lager:info("Payload Data Error!")
     end
   catch
     error:_ -> {error, invalid_coordinate_format}
   end.
 
-%% 验证经纬度范围
-validate_coordinates(Long, Lat) ->
-  Long >= -180 andalso Long =< 180 andalso
-  Lat >= -90 andalso Lat =< 90.
+%% 计算移动信息（距离和速度）
+calculate_movement(CurrentLocation, CurrentTimestamp, undefined, _, State) ->
+  NewState = State#{last_location => CurrentLocation, last_timestamp => CurrentTimestamp},
+  {NewState, {0, 0}};
 
-%% 将二进制转换为十六进制字符串
-binary_to_hex(Binary) ->
-  << <<(integer_to_binary(X, 16))/binary>> || <<X:8>> <= Binary >>.
-
-%% 解析十六进制字符串
-parse_hex_string(HexString) ->
-  io:format("~p~n", [HexString]),
-  case HexString of
-    %% 心跳包格式（假设以 "AA" 开头）
-    <<"AA", Rest/binary>> when byte_size(Rest) == 20 ->
-      <<Info:8, Valid:8, Timestamp:32, Longitude:32, Latitude:32, Altitude:16, Azimuth:16, Speed:8, SNR:8, Satellites:8>> = Rest,
-      {ok, {info, Info, valid, Valid, timestamp, Timestamp, longitude, Longitude, latitude, Latitude, altitude, Altitude, azimuth, Azimuth, speed, Speed, snr, SNR, satellites, Satellites}};
-    %% 设备信息报文格式（假设以 "55" 开头）
-    <<"55", Rest/binary>> when byte_size(Rest) == 22 ->
-      <<Device:8, Open:8, Vibration:8, Unlock:8, Ignition:8, Charging:8, WireCut:8, ExternalVoltage:32, BatteryVoltage:16, GPRS:8, Extra1:8, Extra2:8>> = Rest,
-      {ok, {device, Device, open, Open, vibration, Vibration, unlock, Unlock, ignition, Ignition, charging, Charging, wire_cut, WireCut, external_voltage, ExternalVoltage, battery_voltage, BatteryVoltage, gprs, GPRS, extra1, Extra1, extra2, Extra2}};
-    _ ->
-      {error, unknown_format}
-  end.
+calculate_movement(CurrentLocation, CurrentTimestamp, LastLocation, LastTimestamp, State) ->
+  Distance = emqpg_geo:distance(LastLocation, CurrentLocation),
+  SpeedMps = emqpg_geo:speed(LastLocation, LastTimestamp, CurrentLocation, CurrentTimestamp),
+  Speed = SpeedMps * 3.6,
+  NewState = State#{last_location => CurrentLocation, last_timestamp => CurrentTimestamp},
+  {NewState, {Distance, Speed}}.

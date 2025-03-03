@@ -31,9 +31,9 @@
 %% @end
 send_msg(Content) ->
     try
-        JsonData = thoas:encode(#{token => ?PUSH_TOKEN,
-            title => unicode:characters_to_binary("手表提醒消息"),
-            content => Content}),
+        JsonData = unicode:characters_to_binary(json:encode(#{token => ?PUSH_TOKEN,
+            title => unicode:characters_to_binary("定位设备提醒消息"),
+            content => Content})),
         httpc:request(post, {?PUSH_URL, ?PUSH_HEADERS, "application/json", JsonData}, [], []),
         #{<<"success">> => true}
     catch
@@ -45,4 +45,3 @@ send_msg(Content) ->
 %%====================================================================
 %% 内部函数
 %%====================================================================
-

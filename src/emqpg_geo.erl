@@ -3,7 +3,7 @@
 %%% @copyright (C) 2024, REDGREAT
 %%% @doc
 %%%
-%%% 国际WSG84坐标系转换为国内GCJ02高德坐标系，火星坐标系
+%%% 经纬度计算相关函数
 %%%
 %%% @end
 %%% Created : 2024-07-01 下午2:11
@@ -14,18 +14,19 @@
 %%%===================================================================
 %%% 函数导出
 %%%===================================================================
--export([wgs84_to_gcj02/1]).
+-export([wgs84_to_gcj02/1, distance/2, speed/4]).
 
 -define(PI, 3.14159265358979323846).
 -define(X_PI, 3.0 * ?PI).
--define(A, 6378245.0).
+-define(A, 6378245.0). % 地球长半径（米）
+-define(R, 6371000.0). % 地球半径（米）
 -define(EE, 0.00669342162296594323).
 
 %%====================================================================
 %% API 函数
 %%====================================================================
 %% @doc
-%% 转换函数
+%% 国际WSG84坐标系转换为国内GCJ02高德坐标系，火星坐标系
 %% @end
 wgs84_to_gcj02({Lng, Lat}) ->
     case out_of_china({Lng, Lat}) of
@@ -43,6 +44,41 @@ wgs84_to_gcj02({Lng, Lat}) ->
             MgLng = Lng + FinalDLng,
             {MgLng, MgLat}
     end.
+
+%% @doc
+%% 计算两个经纬度点之间的距离（米）
+%% 使用Haversine公式计算球面距离
+%% @end
+distance({Lng1, Lat1}, {Lng2, Lat2}) ->
+    % 将经纬度转换为弧度
+    Rad1 = {Lng1 * ?PI / 180.0, Lat1 * ?PI / 180.0},
+    Rad2 = {Lng2 * ?PI / 180.0, Lat2 * ?PI / 180.0},
+    
+    % 提取弧度值
+    {RadLng1, RadLat1} = Rad1,
+    {RadLng2, RadLat2} = Rad2,
+    
+    % 计算差值
+    DLat = RadLat2 - RadLat1,
+    DLng = RadLng2 - RadLng1,
+    
+    % Haversine公式
+    A = math:pow(math:sin(DLat / 2), 2) + 
+        math:cos(RadLat1) * math:cos(RadLat2) * 
+        math:pow(math:sin(DLng / 2), 2),
+    C = 2 * math:atan2(math:sqrt(A), math:sqrt(1 - A)),
+        
+    % 计算距离（米）
+    Distance = ?R * C,
+    Distance.
+
+%% @doc
+%% 计算两点间移动速度（米/秒）
+%% @end
+speed({Lng1, Lat1}, Time1, {Lng2, Lat2}, Time2) ->
+    Distance = distance({Lng1, Lat1}, {Lng2, Lat2}),
+    TimeDiff = max(Time2 - Time1, 1), % 防止零除
+    Distance / TimeDiff.
 
 %%====================================================================
 %% 内部函数

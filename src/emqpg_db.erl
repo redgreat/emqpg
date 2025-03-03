@@ -14,35 +14,23 @@
 %%%===================================================================
 %%% 函数导出
 %%%===================================================================
--export([send_msg/1]).
-
--define(PUSH_TOKEN, application:get_env(emqpg, push_token, <<"f9f695f545524ebd89927ddfbce5d9b1">>)).
--define(PUSH_URL, "http://www.pushplus.plus/send/").
--define(PUSH_HEADERS, [{"Content-Type", "application/json"}]).
+-export([db_pg_gnss/2]).
 
 %%====================================================================
 %% API 函数
 %%====================================================================
 %% @doc
-%% 消息发送
-%% 中文发送方法：
-%% Content = unicode:characters_to_binary("测试消息！").
-%% eadm_wechat:send_msg(Content).
+%% 合宙定位信息入库
 %% @end
-send_msg(Content) ->
+db_pg_gnss(Topic, {Lng, Lat}) ->
     try
-        JsonData = thoas:encode(#{token => ?PUSH_TOKEN,
-            title => unicode:characters_to_binary("手表提醒消息"),
-            content => Content}),
-        httpc:request(post, {?PUSH_URL, ?PUSH_HEADERS, "application/json", JsonData}, [], []),
-        #{<<"success">> => true}
+        emqpg_pgpool:equery("insert into lc_hzgnss(topic, lng, lat)
+        values($1, $2, $3);", [Topic, Lng, Lat])
     catch
-        Exception:Error ->
-            lager:error("Message Send Failed: ~p:~p", [Exception, Error]),
-            #{<<"success">> => false}
+        Exception:Error -> 
+            lager:error("Database Insert Failed: ~p:~p", [Exception, Error])
     end.
 
 %%====================================================================
 %% 内部函数
 %%====================================================================
-

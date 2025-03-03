@@ -634,3 +634,1416 @@
 2025-03-01 17:21:57.127 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
 2025-03-01 17:21:58.348 [info] <0.366.0> <0.366.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.367.0>
 2025-03-01 17:21:58.548 [info] <0.369.0> <0.369.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.370.0>
+2025-03-01 17:22:30.456 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-01 17:23:50.563 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:34:54.681 [debug] <0.327.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 08:34:54.681 [debug] <0.324.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 08:34:54.764 [debug] <0.333.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 08:34:55.148 [debug] <0.320.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 08:34:55.472 [info] <0.352.0>@emqpg_handler:init:60 MQTT client process started: <0.353.0>
+2025-03-03 08:34:56.027 [info] <0.352.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 08:34:56.071 [info] <0.352.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 08:34:56.493 [info] <0.358.0> <0.358.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.359.0>
+2025-03-03 08:34:56.961 [info] <0.361.0> <0.361.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.362.0>
+2025-03-03 08:36:05.800 [info] <0.352.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:37:25.671 [info] <0.352.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:38:33.345 [info] <0.352.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:39:53.276 [info] <0.352.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:41:13.231 [info] <0.352.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:41:55.429 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 08:41:55.429 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 08:41:55.432 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 08:41:55.471 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 08:41:55.641 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 08:41:55.686 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 08:41:55.929 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 08:41:57.172 [info] <0.366.0> <0.366.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.367.0>
+2025-03-03 08:41:57.393 [info] <0.369.0> <0.369.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.370.0>
+2025-03-03 08:42:33.265 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:43:53.332 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:45:13.266 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:46:33.249 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:47:43.385 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:49:03.689 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:50:23.621 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:51:43.632 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:53:03.698 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:54:23.612 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:55:43.639 [info] <0.360.0>@emqpg_handler:handle_info:89 Received message from topic <<"pos/gnss">>: Lng:36.40402395703622, Lat: 120.53139519406558
+2025-03-03 08:56:49.973 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 08:56:49.973 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 08:56:49.976 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 08:56:50.016 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 08:56:50.176 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 08:56:50.219 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 08:56:50.469 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 08:56:50.486 [info] <0.366.0> <0.366.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.367.0>
+2025-03-03 08:56:50.704 [info] <0.369.0> <0.369.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.370.0>
+2025-03-03 08:57:05.941 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 08:58:26.195 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 08:59:33.227 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:00:52.801 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:02:12.741 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:03:32.705 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:04:52.729 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:06:12.739 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:07:47.990 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:09:08.438 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:10:28.720 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:11:33.079 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:12:53.360 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:14:13.413 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:15:33.349 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:16:53.345 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:18:13.340 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:19:33.373 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:20:43.494 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:22:03.796 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:23:38.884 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:24:59.136 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:26:19.082 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:27:39.069 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:28:59.059 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:30:19.133 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:31:39.114 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:33:04.113 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:34:24.209 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:35:32.957 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:36:52.654 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:38:12.715 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:39:32.650 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:40:52.891 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:42:12.921 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:43:32.712 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:44:42.861 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:46:03.067 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:47:23.117 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:48:43.059 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:50:03.109 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:51:23.058 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:52:43.157 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:54:05.910 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:55:25.615 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:56:32.920 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:57:52.823 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 09:59:12.752 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:00:32.787 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:01:52.795 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:03:12.794 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:04:32.784 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:05:42.923 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:07:03.164 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:08:23.431 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:09:43.162 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:11:03.193 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:12:23.204 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:13:43.193 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:15:06.101 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:16:26.347 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:17:32.869 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:18:52.900 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:20:12.915 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:21:48.109 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:23:08.230 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:24:28.289 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:25:48.237 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 10:27:08.326 [info] <0.360.0>@emqpg_handler:handle_info:87 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:04:33.126 [debug] <0.357.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 13:04:33.125 [debug] <0.348.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 13:04:33.125 [debug] <0.351.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 13:04:33.428 [info] <0.376.0>@emqpg_handler:init:60 MQTT client process started: <0.377.0>
+2025-03-03 13:04:33.601 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 13:04:33.731 [info] <0.376.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 13:04:33.782 [info] <0.376.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 13:04:34.403 [info] <0.382.0> <0.382.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.383.0>
+2025-03-03 13:04:34.863 [info] <0.385.0> <0.385.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.386.0>
+2025-03-03 13:05:12.689 [info] <0.376.0>@emqpg_handler:terminate:98 Handler terminating.
+2025-03-03 13:05:12.708 [error] <0.376.0>@emqpg_db:db_pg_gnss:25 gen_server emqpg_handler terminated with reason: no function clause matching emqpg_db:db_pg_gnss(<<"pos/gnss">>, {120.5211292,36.4116155}) line 25
+2025-03-03 13:05:12.708 [error] <0.376.0>@emqpg_db:db_pg_gnss:25 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no function clause matching emqpg_db:db_pg_gnss(<<"pos/gnss">>, {120.5211292,36.4116155}) line 25
+2025-03-03 13:05:12.708 [info] <0.388.0>@emqpg_handler:init:60 MQTT client process started: <0.389.0>
+2025-03-03 13:05:12.709 [error] <0.375.0>@emqpg_db:db_pg_gnss:25 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.376.0> exit with reason no function clause matching emqpg_db:db_pg_gnss(<<"pos/gnss">>, {120.5211292,36.4116155}) line 25 in context child_terminated
+2025-03-03 13:05:12.814 [info] <0.388.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 13:05:12.866 [info] <0.388.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 13:06:32.991 [info] <0.388.0>@emqpg_handler:terminate:98 Handler terminating.
+2025-03-03 13:06:32.991 [error] <0.388.0>@emqpg_db:db_pg_gnss:25 gen_server emqpg_handler terminated with reason: no function clause matching emqpg_db:db_pg_gnss(<<"pos/gnss">>, {120.5211292,36.4116155}) line 25
+2025-03-03 13:06:32.991 [error] <0.388.0>@emqpg_db:db_pg_gnss:25 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: no function clause matching emqpg_db:db_pg_gnss(<<"pos/gnss">>, {120.5211292,36.4116155}) line 25
+2025-03-03 13:06:32.991 [error] <0.375.0>@emqpg_db:db_pg_gnss:25 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.388.0> exit with reason no function clause matching emqpg_db:db_pg_gnss(<<"pos/gnss">>, {120.5211292,36.4116155}) line 25 in context child_terminated
+2025-03-03 13:06:32.991 [info] <0.391.0>@emqpg_handler:init:60 MQTT client process started: <0.392.0>
+2025-03-03 13:06:33.099 [info] <0.391.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 13:06:33.145 [info] <0.391.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 13:06:54.293 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 13:06:54.293 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 13:06:54.299 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 13:06:54.341 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 13:06:54.596 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 13:06:54.644 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 13:06:54.789 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 13:06:55.169 [info] <0.366.0> <0.366.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.367.0>
+2025-03-03 13:06:55.736 [info] <0.369.0> <0.369.0> Connected to mqtt at fn.wongcw.cn with user wangcw: <0.370.0>
+2025-03-03 13:07:52.709 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:09:12.676 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:10:32.731 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:11:42.895 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:11:59.328 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 13:11:59.328 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 13:11:59.332 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 13:11:59.370 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 13:11:59.636 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 13:11:59.688 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 13:11:59.822 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 13:12:00.211 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 13:12:00.434 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 13:13:03.054 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:14:23.067 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:15:43.065 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:17:03.039 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:18:23.216 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:19:27.654 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 13:19:27.654 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 13:19:27.658 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 13:19:27.700 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 13:19:27.979 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 13:19:28.025 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 13:19:28.153 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 13:19:28.291 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 13:19:28.513 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 13:19:43.423 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:20:54.025 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5211292, Lat: 36.4116155
+2025-03-03 13:22:01.360 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5304107, Lat: 36.4102973
+2025-03-03 13:22:29.055 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41177
+2025-03-03 13:22:30.945 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41172
+2025-03-03 13:22:30.987 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41166
+2025-03-03 13:22:32.038 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41158
+2025-03-03 13:22:33.073 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41152
+2025-03-03 13:22:34.088 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5189, Lat: 36.41143
+2025-03-03 13:22:35.397 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5189, Lat: 36.41138
+2025-03-03 13:22:38.266 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5189, Lat: 36.41133
+2025-03-03 13:22:38.286 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5189, Lat: 36.41127
+2025-03-03 13:22:38.299 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41122
+2025-03-03 13:22:39.253 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41116
+2025-03-03 13:22:40.292 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41109
+2025-03-03 13:22:41.312 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41104
+2025-03-03 13:22:42.337 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41098
+2025-03-03 13:22:43.373 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41093
+2025-03-03 13:22:44.409 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41087
+2025-03-03 13:22:45.452 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.4108
+2025-03-03 13:22:46.486 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41074
+2025-03-03 13:22:47.504 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41069
+2025-03-03 13:22:48.531 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41063
+2025-03-03 13:22:49.550 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41057
+2025-03-03 13:22:50.589 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41051
+2025-03-03 13:22:51.609 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41046
+2025-03-03 13:22:52.653 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41041
+2025-03-03 13:22:53.678 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41037
+2025-03-03 13:22:54.736 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41032
+2025-03-03 13:22:55.758 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41028
+2025-03-03 13:22:56.774 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41024
+2025-03-03 13:22:57.791 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.4102
+2025-03-03 13:22:58.843 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41017
+2025-03-03 13:22:59.853 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5188, Lat: 36.41014
+2025-03-03 13:23:00.893 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5187, Lat: 36.41011
+2025-03-03 13:23:01.926 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5187, Lat: 36.4101
+2025-03-03 13:23:03.193 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5187, Lat: 36.41008
+2025-03-03 13:23:03.968 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5186, Lat: 36.41008
+2025-03-03 13:23:05.298 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5186, Lat: 36.41009
+2025-03-03 13:23:06.041 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5185, Lat: 36.4101
+2025-03-03 13:23:07.081 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5185, Lat: 36.41012
+2025-03-03 13:23:08.618 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5184, Lat: 36.41014
+2025-03-03 13:23:10.163 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5183, Lat: 36.41017
+2025-03-03 13:23:10.175 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5183, Lat: 36.41018
+2025-03-03 13:23:11.206 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5182, Lat: 36.41019
+2025-03-03 13:23:12.040 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5166176, Lat: 36.4105162
+2025-03-03 13:23:13.860 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5182, Lat: 36.41021
+2025-03-03 13:23:13.879 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5181, Lat: 36.41022
+2025-03-03 13:23:14.257 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5181, Lat: 36.41024
+2025-03-03 13:23:15.320 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.518, Lat: 36.41026
+2025-03-03 13:23:16.580 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5179, Lat: 36.41028
+2025-03-03 13:23:18.399 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5179, Lat: 36.41029
+2025-03-03 13:23:18.412 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5178, Lat: 36.41032
+2025-03-03 13:23:19.398 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5178, Lat: 36.41033
+2025-03-03 13:23:20.646 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5177, Lat: 36.41035
+2025-03-03 13:23:21.457 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5177, Lat: 36.41037
+2025-03-03 13:23:22.750 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5176, Lat: 36.41039
+2025-03-03 13:23:24.588 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5175, Lat: 36.4104
+2025-03-03 13:23:24.603 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5175, Lat: 36.41042
+2025-03-03 13:23:25.578 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5174, Lat: 36.41043
+2025-03-03 13:23:27.059 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5174, Lat: 36.41045
+2025-03-03 13:23:27.659 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5173, Lat: 36.41047
+2025-03-03 13:23:28.686 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5172, Lat: 36.41048
+2025-03-03 13:23:29.733 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5172, Lat: 36.4105
+2025-03-03 13:23:30.730 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5171, Lat: 36.41052
+2025-03-03 13:23:31.764 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.517, Lat: 36.41054
+2025-03-03 13:23:32.766 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5169, Lat: 36.41056
+2025-03-03 13:23:33.786 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5169, Lat: 36.41058
+2025-03-03 13:23:35.071 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5168, Lat: 36.4106
+2025-03-03 13:23:35.868 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5167, Lat: 36.41062
+2025-03-03 13:23:36.891 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5167, Lat: 36.41063
+2025-03-03 13:23:38.162 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5166, Lat: 36.41065
+2025-03-03 13:23:39.496 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5165, Lat: 36.41067
+2025-03-03 13:23:40.005 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5164, Lat: 36.41069
+2025-03-03 13:23:41.017 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5164, Lat: 36.41071
+2025-03-03 13:23:42.050 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5163, Lat: 36.41072
+2025-03-03 13:23:44.294 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5162, Lat: 36.41074
+2025-03-03 13:23:44.543 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5162, Lat: 36.41076
+2025-03-03 13:23:45.650 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5161, Lat: 36.4108
+2025-03-03 13:23:46.137 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.516, Lat: 36.41081
+2025-03-03 13:23:47.414 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5159, Lat: 36.41083
+2025-03-03 13:23:48.304 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5159, Lat: 36.41084
+2025-03-03 13:23:49.237 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5158, Lat: 36.41086
+2025-03-03 13:23:50.516 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5157, Lat: 36.41088
+2025-03-03 13:23:52.346 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5157, Lat: 36.41089
+2025-03-03 13:23:52.359 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5156, Lat: 36.41091
+2025-03-03 13:23:53.367 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5156, Lat: 36.41092
+2025-03-03 13:23:54.418 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5155, Lat: 36.41094
+2025-03-03 13:23:55.407 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5154, Lat: 36.41095
+2025-03-03 13:23:56.434 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5154, Lat: 36.41097
+2025-03-03 13:23:57.488 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5153, Lat: 36.41098
+2025-03-03 13:23:58.564 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5152, Lat: 36.411
+2025-03-03 13:23:59.547 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5152, Lat: 36.41101
+2025-03-03 13:24:00.571 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5151, Lat: 36.41102
+2025-03-03 13:24:01.608 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.515, Lat: 36.41103
+2025-03-03 13:24:02.618 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.515, Lat: 36.41105
+2025-03-03 13:24:03.634 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5149, Lat: 36.41106
+2025-03-03 13:24:04.665 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5148, Lat: 36.41107
+2025-03-03 13:24:06.253 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5147, Lat: 36.41108
+2025-03-03 13:24:07.772 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5147, Lat: 36.41109
+2025-03-03 13:24:07.809 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5146, Lat: 36.4111
+2025-03-03 13:24:08.809 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5145, Lat: 36.41112
+2025-03-03 13:24:09.814 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5144, Lat: 36.41113
+2025-03-03 13:24:12.110 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5144, Lat: 36.41115
+2025-03-03 13:24:12.125 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5143, Lat: 36.41116
+2025-03-03 13:24:12.900 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5142, Lat: 36.41118
+2025-03-03 13:24:13.946 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5141, Lat: 36.41119
+2025-03-03 13:24:14.968 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5141, Lat: 36.4112
+2025-03-03 13:24:16.009 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.514, Lat: 36.41121
+2025-03-03 13:24:17.235 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5139, Lat: 36.41121
+2025-03-03 13:24:19.054 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5139, Lat: 36.41121
+2025-03-03 13:24:19.587 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5138, Lat: 36.41122
+2025-03-03 13:24:20.124 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5137, Lat: 36.41122
+2025-03-03 13:24:21.143 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5136, Lat: 36.41123
+2025-03-03 13:24:21.922 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.512231, Lat: 36.4111613
+2025-03-03 13:24:22.168 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5135, Lat: 36.41124
+2025-03-03 13:24:23.189 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5135, Lat: 36.41124
+2025-03-03 13:24:24.487 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5134, Lat: 36.41125
+2025-03-03 13:24:26.258 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5134, Lat: 36.41125
+2025-03-03 13:24:26.810 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5133, Lat: 36.41125
+2025-03-03 13:24:29.471 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5133, Lat: 36.41125
+2025-03-03 13:24:29.484 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5132, Lat: 36.41125
+2025-03-03 13:24:29.726 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5132, Lat: 36.41125
+2025-03-03 13:24:30.422 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5131, Lat: 36.41126
+2025-03-03 13:24:31.433 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5131, Lat: 36.41126
+2025-03-03 13:24:32.442 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.513, Lat: 36.41125
+2025-03-03 13:24:33.478 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.513, Lat: 36.41126
+2025-03-03 13:24:34.494 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5129, Lat: 36.41126
+2025-03-03 13:24:35.524 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5129, Lat: 36.41126
+2025-03-03 13:24:36.564 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5128, Lat: 36.41126
+2025-03-03 13:24:37.817 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5128, Lat: 36.41126
+2025-03-03 13:24:38.605 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5127, Lat: 36.41126
+2025-03-03 13:24:39.648 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5126, Lat: 36.41127
+2025-03-03 13:24:40.936 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5126, Lat: 36.41127
+2025-03-03 13:24:42.710 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5125, Lat: 36.41127
+2025-03-03 13:24:42.762 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5124, Lat: 36.41127
+2025-03-03 13:24:43.824 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5124, Lat: 36.41128
+2025-03-03 13:24:44.794 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5123, Lat: 36.41129
+2025-03-03 13:24:46.088 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5123, Lat: 36.41129
+2025-03-03 13:24:48.112 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5122, Lat: 36.41129
+2025-03-03 13:24:48.130 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5121, Lat: 36.41129
+2025-03-03 13:24:49.912 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5121, Lat: 36.41129
+2025-03-03 13:24:50.241 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.512, Lat: 36.4113
+2025-03-03 13:24:52.029 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5119, Lat: 36.4113
+2025-03-03 13:24:52.044 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5119, Lat: 36.4113
+2025-03-03 13:24:53.003 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5118, Lat: 36.4113
+2025-03-03 13:24:54.044 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5118, Lat: 36.4113
+2025-03-03 13:24:55.055 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5117, Lat: 36.4113
+2025-03-03 13:24:56.099 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5117, Lat: 36.4113
+2025-03-03 13:24:57.133 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5116, Lat: 36.4113
+2025-03-03 13:24:58.175 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5116, Lat: 36.41129
+2025-03-03 13:24:59.174 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5115, Lat: 36.41129
+2025-03-03 13:25:00.196 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5115, Lat: 36.41129
+2025-03-03 13:25:01.252 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5114, Lat: 36.41129
+2025-03-03 13:25:02.507 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5114, Lat: 36.41129
+2025-03-03 13:25:03.295 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5114, Lat: 36.41129
+2025-03-03 13:25:04.318 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5113, Lat: 36.4113
+2025-03-03 13:25:05.641 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5113, Lat: 36.4113
+2025-03-03 13:25:07.402 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5112, Lat: 36.4113
+2025-03-03 13:25:07.449 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5112, Lat: 36.4113
+2025-03-03 13:25:08.459 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5111, Lat: 36.4113
+2025-03-03 13:25:09.744 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5111, Lat: 36.4113
+2025-03-03 13:25:11.752 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.511, Lat: 36.41131
+2025-03-03 13:25:13.573 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5109, Lat: 36.41131
+2025-03-03 13:25:13.584 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5109, Lat: 36.41131
+2025-03-03 13:25:13.619 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5108, Lat: 36.41131
+2025-03-03 13:25:14.615 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5107, Lat: 36.41131
+2025-03-03 13:25:16.596 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5107, Lat: 36.41131
+2025-03-03 13:25:16.682 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5106, Lat: 36.41132
+2025-03-03 13:25:17.980 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5105, Lat: 36.41132
+2025-03-03 13:25:19.784 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5105, Lat: 36.41132
+2025-03-03 13:25:19.806 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5104, Lat: 36.41132
+2025-03-03 13:25:20.793 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5103, Lat: 36.41133
+2025-03-03 13:25:21.808 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5102, Lat: 36.41133
+2025-03-03 13:25:22.843 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5101, Lat: 36.41133
+2025-03-03 13:25:23.900 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.51, Lat: 36.41133
+2025-03-03 13:25:24.933 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.51, Lat: 36.41134
+2025-03-03 13:25:25.946 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5099, Lat: 36.41134
+2025-03-03 13:25:27.189 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5098, Lat: 36.41134
+2025-03-03 13:25:27.982 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5097, Lat: 36.41134
+2025-03-03 13:25:29.015 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5096, Lat: 36.41134
+2025-03-03 13:25:30.313 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5096, Lat: 36.41134
+2025-03-03 13:25:32.105 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5095, Lat: 36.41135
+2025-03-03 13:25:34.264 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5098571, Lat: 36.4110832
+2025-03-03 13:25:34.278 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5094, Lat: 36.41135
+2025-03-03 13:25:34.291 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5092, Lat: 36.41135
+2025-03-03 13:25:36.292 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5092, Lat: 36.41135
+2025-03-03 13:25:36.305 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5091, Lat: 36.41135
+2025-03-03 13:25:36.316 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.509, Lat: 36.41135
+2025-03-03 13:25:37.287 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5089, Lat: 36.41136
+2025-03-03 13:25:38.359 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5088, Lat: 36.41135
+2025-03-03 13:25:39.365 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5088, Lat: 36.41135
+2025-03-03 13:25:40.638 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5087, Lat: 36.41135
+2025-03-03 13:25:42.444 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5086, Lat: 36.41135
+2025-03-03 13:25:42.457 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5085, Lat: 36.41135
+2025-03-03 13:25:43.462 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5084, Lat: 36.41135
+2025-03-03 13:25:44.756 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5084, Lat: 36.41135
+2025-03-03 13:25:46.552 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5083, Lat: 36.41134
+2025-03-03 13:25:46.566 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5082, Lat: 36.41134
+2025-03-03 13:25:47.588 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5081, Lat: 36.41134
+2025-03-03 13:25:48.605 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.508, Lat: 36.41134
+2025-03-03 13:25:49.624 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.508, Lat: 36.41134
+2025-03-03 13:25:50.663 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5079, Lat: 36.41134
+2025-03-03 13:25:51.673 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5078, Lat: 36.41134
+2025-03-03 13:25:52.976 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5077, Lat: 36.41134
+2025-03-03 13:25:53.761 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5076, Lat: 36.41134
+2025-03-03 13:25:54.772 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5076, Lat: 36.41134
+2025-03-03 13:25:55.811 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5075, Lat: 36.41133
+2025-03-03 13:25:56.837 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5074, Lat: 36.41133
+2025-03-03 13:25:57.882 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5074, Lat: 36.41133
+2025-03-03 13:25:58.876 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5073, Lat: 36.41133
+2025-03-03 13:25:59.942 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5072, Lat: 36.41133
+2025-03-03 13:26:00.952 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5071, Lat: 36.41132
+2025-03-03 13:26:01.996 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5071, Lat: 36.41132
+2025-03-03 13:26:03.241 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.507, Lat: 36.41132
+2025-03-03 13:26:04.033 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5069, Lat: 36.41132
+2025-03-03 13:26:05.078 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5068, Lat: 36.41132
+2025-03-03 13:26:06.100 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5067, Lat: 36.41132
+2025-03-03 13:26:07.163 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5067, Lat: 36.41132
+2025-03-03 13:26:08.384 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5066, Lat: 36.41132
+2025-03-03 13:26:09.179 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5065, Lat: 36.41132
+2025-03-03 13:26:10.266 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5065, Lat: 36.41132
+2025-03-03 13:26:12.526 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5064, Lat: 36.41132
+2025-03-03 13:26:12.537 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5064, Lat: 36.41132
+2025-03-03 13:26:14.577 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5063, Lat: 36.41132
+2025-03-03 13:26:14.594 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5062, Lat: 36.41132
+2025-03-03 13:26:15.339 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5062, Lat: 36.41132
+2025-03-03 13:26:16.609 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5061, Lat: 36.41132
+2025-03-03 13:26:22.432 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5061, Lat: 36.41133
+2025-03-03 13:26:22.448 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5061, Lat: 36.41133
+2025-03-03 13:26:22.462 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.506, Lat: 36.41133
+2025-03-03 13:26:22.478 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.506, Lat: 36.41133
+2025-03-03 13:26:22.495 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.506, Lat: 36.41133
+2025-03-03 13:26:22.552 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5059, Lat: 36.41133
+2025-03-03 13:26:23.675 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5059, Lat: 36.41133
+2025-03-03 13:26:24.758 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5059, Lat: 36.41133
+2025-03-03 13:26:25.620 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:26.721 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:27.698 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:28.717 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:29.735 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:35.980 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:35.995 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:36.007 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:36.020 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:36.031 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41133
+2025-03-03 13:26:36.139 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41132
+2025-03-03 13:26:36.985 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41132
+2025-03-03 13:26:37.962 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41132
+2025-03-03 13:26:39.465 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41132
+2025-03-03 13:26:40.114 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41131
+2025-03-03 13:26:41.037 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41131
+2025-03-03 13:26:42.323 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.41131
+2025-03-03 13:26:42.338 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5098571, Lat: 36.4110832
+2025-03-03 13:26:43.183 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5058, Lat: 36.4113
+2025-03-03 13:26:44.177 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5057, Lat: 36.4113
+2025-03-03 13:26:45.223 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5057, Lat: 36.4113
+2025-03-03 13:26:46.584 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5057, Lat: 36.4113
+2025-03-03 13:26:47.246 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5057, Lat: 36.4113
+2025-03-03 13:26:48.500 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5057, Lat: 36.4113
+2025-03-03 13:26:49.285 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5056, Lat: 36.4113
+2025-03-03 13:26:50.322 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5056, Lat: 36.4113
+2025-03-03 13:26:51.341 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5056, Lat: 36.4113
+2025-03-03 13:26:52.401 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5056, Lat: 36.4113
+2025-03-03 13:26:53.423 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5055, Lat: 36.4113
+2025-03-03 13:26:54.725 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5055, Lat: 36.4113
+2025-03-03 13:26:56.497 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5054, Lat: 36.4113
+2025-03-03 13:26:56.509 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5054, Lat: 36.4113
+2025-03-03 13:26:57.517 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5053, Lat: 36.4113
+2025-03-03 13:26:58.630 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5053, Lat: 36.41129
+2025-03-03 13:26:59.592 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5053, Lat: 36.41129
+2025-03-03 13:27:00.634 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5052, Lat: 36.41128
+2025-03-03 13:27:01.648 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5052, Lat: 36.41127
+2025-03-03 13:27:02.710 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5051, Lat: 36.41127
+2025-03-03 13:27:03.712 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5051, Lat: 36.41126
+2025-03-03 13:27:05.011 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5051, Lat: 36.41126
+2025-03-03 13:27:07.044 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.505, Lat: 36.41125
+2025-03-03 13:27:07.055 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.505, Lat: 36.41125
+2025-03-03 13:27:12.887 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5049, Lat: 36.41125
+2025-03-03 13:27:13.123 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5049, Lat: 36.41125
+2025-03-03 13:27:13.141 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5048, Lat: 36.41125
+2025-03-03 13:27:13.158 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5048, Lat: 36.41125
+2025-03-03 13:27:13.176 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5047, Lat: 36.41125
+2025-03-03 13:27:13.189 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5047, Lat: 36.41125
+2025-03-03 13:27:14.003 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5046, Lat: 36.41124
+2025-03-03 13:27:15.046 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5046, Lat: 36.41124
+2025-03-03 13:27:16.066 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5045, Lat: 36.41124
+2025-03-03 13:27:17.084 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5045, Lat: 36.41124
+2025-03-03 13:27:18.393 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5044, Lat: 36.41122
+2025-03-03 13:27:19.157 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5043, Lat: 36.41121
+2025-03-03 13:27:20.727 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5043, Lat: 36.41121
+2025-03-03 13:27:21.223 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5042, Lat: 36.4112
+2025-03-03 13:27:22.252 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5042, Lat: 36.41119
+2025-03-03 13:27:23.275 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5041, Lat: 36.41119
+2025-03-03 13:27:24.297 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5041, Lat: 36.41118
+2025-03-03 13:27:25.831 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.504, Lat: 36.41118
+2025-03-03 13:27:27.423 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.504, Lat: 36.41117
+2025-03-03 13:27:27.438 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5039, Lat: 36.41117
+2025-03-03 13:27:28.435 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5039, Lat: 36.41117
+2025-03-03 13:27:29.455 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5038, Lat: 36.41117
+2025-03-03 13:27:30.470 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5038, Lat: 36.41116
+2025-03-03 13:27:31.496 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5037, Lat: 36.41116
+2025-03-03 13:27:32.513 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5037, Lat: 36.41116
+2025-03-03 13:27:33.577 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5036, Lat: 36.41115
+2025-03-03 13:27:34.794 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5036, Lat: 36.41115
+2025-03-03 13:27:35.631 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5035, Lat: 36.41114
+2025-03-03 13:27:36.652 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5035, Lat: 36.41114
+2025-03-03 13:27:38.443 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5034, Lat: 36.41114
+2025-03-03 13:27:38.708 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5034, Lat: 36.41114
+2025-03-03 13:27:39.759 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5033, Lat: 36.41113
+2025-03-03 13:27:40.773 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5033, Lat: 36.41113
+2025-03-03 13:27:41.832 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5032, Lat: 36.41113
+2025-03-03 13:27:42.830 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5032, Lat: 36.41113
+2025-03-03 13:27:43.847 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5032, Lat: 36.41113
+2025-03-03 13:27:45.163 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5031, Lat: 36.41113
+2025-03-03 13:27:46.941 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5031, Lat: 36.41113
+2025-03-03 13:27:46.982 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.503, Lat: 36.41112
+2025-03-03 13:27:47.973 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.503, Lat: 36.41112
+2025-03-03 13:27:48.987 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5029, Lat: 36.41111
+2025-03-03 13:27:50.028 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5029, Lat: 36.41111
+2025-03-03 13:27:51.043 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5029, Lat: 36.41111
+2025-03-03 13:27:52.073 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5028, Lat: 36.4111
+2025-03-03 13:27:53.105 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5027, Lat: 36.41109
+2025-03-03 13:27:53.878 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5027755, Lat: 36.411025
+2025-03-03 13:27:54.134 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5026, Lat: 36.41109
+2025-03-03 13:27:55.139 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5026, Lat: 36.41109
+2025-03-03 13:27:56.230 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5025, Lat: 36.41108
+2025-03-03 13:27:57.474 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5025, Lat: 36.41107
+2025-03-03 13:27:59.486 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5024, Lat: 36.41106
+2025-03-03 13:27:59.507 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5023, Lat: 36.41106
+2025-03-03 13:28:00.315 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5022, Lat: 36.41106
+2025-03-03 13:28:01.355 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5022, Lat: 36.41105
+2025-03-03 13:28:02.624 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5021, Lat: 36.41105
+2025-03-03 13:28:04.423 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.502, Lat: 36.41104
+2025-03-03 13:28:04.474 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.502, Lat: 36.41104
+2025-03-03 13:28:05.451 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5019, Lat: 36.41104
+2025-03-03 13:28:06.485 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5018, Lat: 36.41103
+2025-03-03 13:28:07.518 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5017, Lat: 36.41102
+2025-03-03 13:28:08.536 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5017, Lat: 36.41102
+2025-03-03 13:28:09.547 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5016, Lat: 36.41101
+2025-03-03 13:28:10.623 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5015, Lat: 36.41101
+2025-03-03 13:28:11.911 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5014, Lat: 36.411
+2025-03-03 13:28:13.694 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5014, Lat: 36.411
+2025-03-03 13:28:14.014 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5013, Lat: 36.411
+2025-03-03 13:28:15.829 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5013, Lat: 36.41099
+2025-03-03 13:28:15.848 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5012, Lat: 36.41098
+2025-03-03 13:28:17.015 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5011, Lat: 36.41098
+2025-03-03 13:28:17.783 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5011, Lat: 36.41098
+2025-03-03 13:28:18.821 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.501, Lat: 36.41097
+2025-03-03 13:28:20.414 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.501, Lat: 36.41097
+2025-03-03 13:28:20.884 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5009, Lat: 36.41096
+2025-03-03 13:28:22.149 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5009, Lat: 36.41096
+2025-03-03 13:28:23.426 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5008, Lat: 36.41096
+2025-03-03 13:28:25.005 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5007, Lat: 36.41095
+2025-03-03 13:28:25.018 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5007, Lat: 36.41095
+2025-03-03 13:28:26.265 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5006, Lat: 36.41094
+2025-03-03 13:28:27.058 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5005, Lat: 36.41094
+2025-03-03 13:28:28.084 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5005, Lat: 36.41093
+2025-03-03 13:28:29.115 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5004, Lat: 36.41093
+2025-03-03 13:28:30.165 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5003, Lat: 36.41093
+2025-03-03 13:28:31.188 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5003, Lat: 36.41092
+2025-03-03 13:28:32.179 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5002, Lat: 36.41092
+2025-03-03 13:28:33.248 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5002, Lat: 36.41092
+2025-03-03 13:28:34.249 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5001, Lat: 36.41091
+2025-03-03 13:28:35.277 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5001, Lat: 36.41091
+2025-03-03 13:28:36.287 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5, Lat: 36.41091
+2025-03-03 13:28:37.345 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5, Lat: 36.4109
+2025-03-03 13:28:38.366 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.5, Lat: 36.4109
+2025-03-03 13:28:39.374 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4999, Lat: 36.4109
+2025-03-03 13:28:40.706 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4999, Lat: 36.41089
+2025-03-03 13:28:41.446 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4998, Lat: 36.41088
+2025-03-03 13:28:42.721 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4998, Lat: 36.41088
+2025-03-03 13:28:43.508 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4998, Lat: 36.41088
+2025-03-03 13:28:44.516 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4997, Lat: 36.41088
+2025-03-03 13:28:45.564 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4997, Lat: 36.41088
+2025-03-03 13:28:46.577 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4996, Lat: 36.41087
+2025-03-03 13:28:47.621 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4996, Lat: 36.41087
+2025-03-03 13:28:48.641 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4995, Lat: 36.41087
+2025-03-03 13:28:49.892 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4995, Lat: 36.41086
+2025-03-03 13:28:50.971 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4994, Lat: 36.41086
+2025-03-03 13:28:52.760 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4993, Lat: 36.41085
+2025-03-03 13:28:52.814 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4993, Lat: 36.41085
+2025-03-03 13:28:53.769 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4992, Lat: 36.41084
+2025-03-03 13:28:54.833 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4992, Lat: 36.41084
+2025-03-03 13:28:55.833 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4991, Lat: 36.41083
+2025-03-03 13:28:56.874 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.499, Lat: 36.41083
+2025-03-03 13:28:58.107 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.499, Lat: 36.41082
+2025-03-03 13:28:58.903 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4989, Lat: 36.41082
+2025-03-03 13:28:59.937 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4988, Lat: 36.41082
+2025-03-03 13:29:00.973 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4988, Lat: 36.41081
+2025-03-03 13:29:02.039 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4987, Lat: 36.4108
+2025-03-03 13:29:03.039 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4987, Lat: 36.4108
+2025-03-03 13:29:04.013 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4948669, Lat: 36.410414
+2025-03-03 13:29:04.076 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4986, Lat: 36.4108
+2025-03-03 13:29:05.118 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4985, Lat: 36.41079
+2025-03-03 13:29:06.132 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4984, Lat: 36.41078
+2025-03-03 13:29:07.176 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4984, Lat: 36.41077
+2025-03-03 13:29:08.197 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4983, Lat: 36.41077
+2025-03-03 13:29:09.377 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4983, Lat: 36.41077
+2025-03-03 13:29:10.247 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4982, Lat: 36.41076
+2025-03-03 13:29:11.288 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4982, Lat: 36.41076
+2025-03-03 13:29:12.323 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4981, Lat: 36.41076
+2025-03-03 13:29:13.368 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4981, Lat: 36.41075
+2025-03-03 13:29:14.515 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4981, Lat: 36.41074
+2025-03-03 13:29:15.416 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.498, Lat: 36.41074
+2025-03-03 13:29:16.444 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.498, Lat: 36.41074
+2025-03-03 13:29:17.553 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.498, Lat: 36.41073
+2025-03-03 13:29:18.490 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4979, Lat: 36.41073
+2025-03-03 13:29:19.747 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4979, Lat: 36.41073
+2025-03-03 13:29:21.562 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4978, Lat: 36.41073
+2025-03-03 13:29:21.579 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4978, Lat: 36.41072
+2025-03-03 13:29:22.633 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4978, Lat: 36.41071
+2025-03-03 13:29:23.669 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4977, Lat: 36.4107
+2025-03-03 13:29:24.913 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4977, Lat: 36.41069
+2025-03-03 13:29:26.709 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4977, Lat: 36.41068
+2025-03-03 13:29:26.751 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4976, Lat: 36.41068
+2025-03-03 13:29:27.745 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4976, Lat: 36.41068
+2025-03-03 13:29:28.992 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4975, Lat: 36.41068
+2025-03-03 13:29:29.804 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4974, Lat: 36.41068
+2025-03-03 13:29:30.814 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4974, Lat: 36.41068
+2025-03-03 13:29:32.134 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4973, Lat: 36.41068
+2025-03-03 13:29:33.917 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4973, Lat: 36.41067
+2025-03-03 13:29:33.960 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4973, Lat: 36.41066
+2025-03-03 13:29:34.958 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4972, Lat: 36.41065
+2025-03-03 13:29:36.224 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4972, Lat: 36.41064
+2025-03-03 13:29:37.221 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4971, Lat: 36.41064
+2025-03-03 13:29:38.026 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.497, Lat: 36.41064
+2025-03-03 13:29:39.060 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.497, Lat: 36.41063
+2025-03-03 13:29:40.116 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4969, Lat: 36.41062
+2025-03-03 13:29:41.142 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4968, Lat: 36.41061
+2025-03-03 13:29:42.133 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4967, Lat: 36.4106
+2025-03-03 13:29:43.161 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4966, Lat: 36.4106
+2025-03-03 13:29:44.181 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4966, Lat: 36.4106
+2025-03-03 13:29:45.503 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4965, Lat: 36.41059
+2025-03-03 13:29:47.535 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4965, Lat: 36.41059
+2025-03-03 13:29:49.355 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4964, Lat: 36.41058
+2025-03-03 13:29:49.372 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4964, Lat: 36.41058
+2025-03-03 13:29:49.407 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4963, Lat: 36.41058
+2025-03-03 13:29:50.397 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4962, Lat: 36.41057
+2025-03-03 13:29:51.397 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4962, Lat: 36.41056
+2025-03-03 13:29:52.418 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4961, Lat: 36.41056
+2025-03-03 13:29:53.490 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4961, Lat: 36.41056
+2025-03-03 13:29:54.482 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.496, Lat: 36.41056
+2025-03-03 13:29:55.523 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.496, Lat: 36.41056
+2025-03-03 13:29:56.770 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.496, Lat: 36.41055
+2025-03-03 13:29:58.174 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4959, Lat: 36.41055
+2025-03-03 13:29:58.589 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4959, Lat: 36.41054
+2025-03-03 13:29:59.660 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4958, Lat: 36.41053
+2025-03-03 13:30:00.647 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4958, Lat: 36.41053
+2025-03-03 13:30:01.741 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4957, Lat: 36.41053
+2025-03-03 13:30:02.707 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4957, Lat: 36.41052
+2025-03-03 13:30:03.981 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4957, Lat: 36.41052
+2025-03-03 13:30:04.742 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4956, Lat: 36.41052
+2025-03-03 13:30:05.774 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4956, Lat: 36.41051
+2025-03-03 13:30:06.887 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4956, Lat: 36.41051
+2025-03-03 13:30:07.830 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4955, Lat: 36.41051
+2025-03-03 13:30:08.894 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4955, Lat: 36.4105
+2025-03-03 13:30:09.909 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4955, Lat: 36.4105
+2025-03-03 13:30:11.198 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4954, Lat: 36.4105
+2025-03-03 13:30:12.988 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4954, Lat: 36.4105
+2025-03-03 13:30:13.003 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4954, Lat: 36.4105
+2025-03-03 13:30:14.010 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4953, Lat: 36.4105
+2025-03-03 13:30:14.662 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4948669, Lat: 36.410414
+2025-03-03 13:30:15.026 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4953, Lat: 36.4105
+2025-03-03 13:30:16.044 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4953, Lat: 36.41051
+2025-03-03 13:30:17.093 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4952, Lat: 36.41051
+2025-03-03 13:30:18.340 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4951, Lat: 36.41051
+2025-03-03 13:30:19.167 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4951, Lat: 36.41051
+2025-03-03 13:30:20.164 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.495, Lat: 36.41051
+2025-03-03 13:30:21.223 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.495, Lat: 36.41051
+2025-03-03 13:30:22.217 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4949, Lat: 36.41051
+2025-03-03 13:30:23.256 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4949, Lat: 36.41051
+2025-03-03 13:30:24.286 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4948, Lat: 36.41052
+2025-03-03 13:30:25.360 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4948, Lat: 36.41052
+2025-03-03 13:30:26.340 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4948, Lat: 36.41052
+2025-03-03 13:30:27.374 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4947, Lat: 36.41052
+2025-03-03 13:30:28.402 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4947, Lat: 36.41052
+2025-03-03 13:30:29.448 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4946, Lat: 36.41052
+2025-03-03 13:30:30.451 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4946, Lat: 36.41051
+2025-03-03 13:30:31.477 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4945, Lat: 36.41051
+2025-03-03 13:30:32.490 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4945, Lat: 36.41052
+2025-03-03 13:30:33.563 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4944, Lat: 36.41052
+2025-03-03 13:30:34.562 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4944, Lat: 36.41052
+2025-03-03 13:30:35.596 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4944, Lat: 36.41052
+2025-03-03 13:30:36.645 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4943, Lat: 36.41053
+2025-03-03 13:30:37.655 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4943, Lat: 36.41053
+2025-03-03 13:30:38.698 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4943, Lat: 36.41053
+2025-03-03 13:30:39.969 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4942, Lat: 36.41053
+2025-03-03 13:30:46.037 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4942, Lat: 36.41053
+2025-03-03 13:30:46.277 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4942, Lat: 36.41053
+2025-03-03 13:30:46.293 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4942, Lat: 36.41053
+2025-03-03 13:30:46.303 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41053
+2025-03-03 13:30:46.315 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41053
+2025-03-03 13:30:48.113 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41054
+2025-03-03 13:30:48.130 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41054
+2025-03-03 13:30:49.907 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41054
+2025-03-03 13:30:49.919 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:49.993 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:51.031 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:52.071 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:53.332 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:54.088 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:55.136 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:56.168 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:57.199 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:58.233 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41055
+2025-03-03 13:30:59.498 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4941, Lat: 36.41054
+2025-03-03 13:31:01.294 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41053
+2025-03-03 13:31:01.359 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41051
+2025-03-03 13:31:02.341 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41049
+2025-03-03 13:31:03.370 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41047
+2025-03-03 13:31:04.419 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41045
+2025-03-03 13:31:05.429 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41044
+2025-03-03 13:31:06.736 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41043
+2025-03-03 13:31:12.518 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41042
+2025-03-03 13:31:12.534 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4104
+2025-03-03 13:31:12.548 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41039
+2025-03-03 13:31:12.562 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41038
+2025-03-03 13:31:12.591 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41037
+2025-03-03 13:31:12.633 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41035
+2025-03-03 13:31:13.685 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:31:14.683 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:31:15.698 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:31:17.995 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:31:18.006 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:31:18.843 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:31:19.840 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:31:20.892 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:21.909 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:22.925 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:23.950 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:25.015 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:31:25.670 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4949111, Lat: 36.409954
+2025-03-03 13:31:26.027 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:31:27.059 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41035
+2025-03-03 13:31:28.073 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41035
+2025-03-03 13:31:29.110 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:31:30.120 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:31:31.142 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:32.164 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:33.696 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:31:34.231 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:31:35.268 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:31:36.567 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:31:38.625 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:40.407 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:40.419 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:40.431 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:41.429 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:42.467 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:43.706 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:45.530 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:45.584 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:46.591 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:47.637 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:48.650 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:50.211 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:50.693 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:31:51.759 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:31:52.980 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:31:53.779 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:31:55.103 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:08.890 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:08.902 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:08.914 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:08.926 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:08.935 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:08.950 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:08.963 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:08.976 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:08.991 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:09.220 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:09.236 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:09.252 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:09.264 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:09.284 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:10.240 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:11.282 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:12.572 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:18.391 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:18.403 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:18.488 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:18.503 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:18.515 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:18.529 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:19.512 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:25.559 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:25.574 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:25.587 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:25.600 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:25.610 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:25.668 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:26.916 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:27.994 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:28.747 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:29.777 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:30.816 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:31.863 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:32.891 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:33.903 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:34.954 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:35.952 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4949111, Lat: 36.409954
+2025-03-03 13:32:36.280 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41035
+2025-03-03 13:32:38.083 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:38.096 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:39.096 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:40.135 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41034
+2025-03-03 13:32:41.162 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:42.177 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:43.232 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41033
+2025-03-03 13:32:44.500 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:32:46.295 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:32:46.344 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:32:47.330 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:32:48.567 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:32:49.386 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:32:50.404 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:32:51.681 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:32:52.702 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:32:53.511 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:32:54.556 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:32:55.541 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:32:56.889 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:32:58.636 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:32:58.650 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:32:59.757 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:00.950 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:02.007 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:33:03.828 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:03.842 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:33:04.838 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:33:05.866 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:33:06.870 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41032
+2025-03-03 13:33:07.913 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:09.438 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:09.982 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:10.990 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:12.029 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:13.047 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:14.366 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:16.421 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:16.438 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:18.232 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:18.246 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:19.231 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:20.268 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.41031
+2025-03-03 13:33:21.274 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:22.323 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:23.331 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:24.396 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:25.649 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:26.426 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:27.943 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:28.486 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:29.516 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:30.544 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:31.863 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:33.618 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.494, Lat: 36.4103
+2025-03-03 13:33:33.629 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:34.886 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:35.672 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:37.743 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:37.789 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:39.026 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:40.806 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:40.824 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:41.866 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:42.887 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:43.909 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:45.176 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:46.076 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:46.210 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4949111, Lat: 36.409954
+2025-03-03 13:33:47.102 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:49.134 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:49.147 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:50.208 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:51.173 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:52.232 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:53.239 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:54.250 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:55.554 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:56.329 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:57.362 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:58.382 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:33:59.703 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:01.459 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:01.502 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:02.716 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:03.532 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:04.780 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:05.570 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:06.598 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:07.651 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:08.662 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:09.717 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:10.710 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:11.756 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:13.019 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:13.823 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:14.850 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:15.889 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:16.903 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:17.939 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:18.963 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:34:19.992 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:21.031 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:22.037 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:23.090 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:24.084 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:25.372 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:27.171 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:27.219 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:28.183 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:29.265 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:30.494 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:31.305 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:32.341 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:33.368 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:34.387 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:35.408 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:36.727 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:37.459 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:38.505 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:39.546 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:40.559 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:41.581 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:47.651 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:47.667 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:47.991 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:48.009 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:48.023 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:48.036 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:48.785 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:54.866 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:54.879 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:54.889 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:54.903 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:54.919 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:54.950 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:55.972 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:56.419 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4949111, Lat: 36.409954
+2025-03-03 13:34:57.015 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41028
+2025-03-03 13:34:58.032 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:34:59.294 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:00.074 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:01.107 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:02.371 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:03.150 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:04.228 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:05.485 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:07.549 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:07.565 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:08.308 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:09.571 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:11.392 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:11.440 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:12.437 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:13.470 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:14.486 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:15.505 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:16.561 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:17.573 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:18.606 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:19.656 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:20.659 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:21.695 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:23.219 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:25.081 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:26.821 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:26.835 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:26.872 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:27.853 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:28.895 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:29.942 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:30.948 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:32.226 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:34.025 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:34.082 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:35.052 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:36.077 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:37.101 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:38.169 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:39.165 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:40.216 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:41.211 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:42.268 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:43.293 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:44.309 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:45.572 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:46.380 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:47.675 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:49.917 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:49.935 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:50.487 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:51.766 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:35:53.580 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:53.594 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:54.871 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:55.631 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:56.907 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:58.716 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:58.730 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:35:59.975 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:36:00.792 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:36:02.066 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:36:02.853 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41029
+2025-03-03 13:36:03.901 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:04.923 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:06.167 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:08.331 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4949111, Lat: 36.409954
+2025-03-03 13:36:08.348 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:08.359 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:10.057 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:10.068 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:11.069 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:12.352 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:13.120 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:14.149 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:15.188 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:16.230 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:17.251 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:18.283 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:19.563 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:21.580 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:21.601 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:22.385 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:23.650 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:24.444 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:25.469 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:26.489 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:27.999 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:28.559 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.4103
+2025-03-03 13:36:29.577 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:30.620 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:31.628 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:32.914 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:34.697 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:34.746 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:35.748 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:36.779 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:37.827 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:38.830 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:39.839 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:41.370 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:42.928 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:43.245 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:45.037 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:45.051 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:46.043 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:47.055 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:48.086 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:49.369 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:51.179 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:51.221 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:52.205 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:53.226 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:54.511 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:56.301 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:56.361 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:57.331 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:36:58.375 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:00.415 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:00.689 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:01.459 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:02.503 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:03.514 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:04.546 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:05.794 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:06.607 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:07.619 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:08.670 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:09.684 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:10.735 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:11.750 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:12.794 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:13.817 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:14.845 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:15.868 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41031
+2025-03-03 13:37:17.138 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4949111, Lat: 36.409954
+2025-03-03 13:37:18.909 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:18.923 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:18.952 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:19.986 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:21.031 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:22.046 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:23.058 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:24.088 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:25.149 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:26.170 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:27.207 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:28.238 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:29.278 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:30.292 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:31.307 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:32.336 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:33.378 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:34.400 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:35.646 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:36.686 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:37.487 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:38.486 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:39.531 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:40.803 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:42.610 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:42.660 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:43.643 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:44.888 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:45.733 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:46.726 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:47.753 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:49.237 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:49.825 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:50.843 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:51.891 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:52.925 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:53.938 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:37:54.979 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:37:55.990 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:37:57.039 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:37:58.045 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:37:59.109 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:00.123 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:01.423 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:03.180 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:03.242 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:04.233 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:05.246 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:06.286 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:07.324 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:08.338 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:09.389 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:10.394 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:11.435 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:12.441 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:13.740 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:38:14.763 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:38:15.521 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:38:16.592 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:38:17.582 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:38:18.642 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41034
+2025-03-03 13:38:19.643 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:20.695 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:21.737 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:23.002 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:23.786 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:25.340 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:26.986 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:27.003 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:27.098 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4949111, Lat: 36.409954
+2025-03-03 13:38:27.976 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:28.985 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:30.013 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:31.030 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:32.065 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:33.087 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:34.139 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:35.167 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:36.197 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:37.214 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:38.220 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:39.283 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:40.297 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:41.324 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:42.356 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:43.414 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:44.414 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:45.444 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:46.483 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:47.496 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:48.782 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:49.576 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:50.827 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:53.125 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:54.686 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:54.698 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:54.726 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:55.748 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:56.757 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:58.004 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41033
+2025-03-03 13:38:58.840 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:38:59.842 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:39:01.113 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:39:01.915 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:39:02.934 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:39:03.956 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:39:04.985 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:39:06.016 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:39:07.289 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:39:09.100 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 13:39:09.620 [info] <0.360.0>@emqpg_db:db_pg_gnss:29 Received message from topic <<"pos/gnss">>: Lng:120.4939, Lat: 36.41032
+2025-03-03 15:52:26.631 [debug] <0.351.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 15:52:26.631 [debug] <0.348.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 15:52:26.637 [debug] <0.357.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 15:52:26.683 [info] <0.376.0>@emqpg_handler:init:60 MQTT client process started: <0.377.0>
+2025-03-03 15:52:27.132 [debug] <0.344.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 15:52:27.208 [info] <0.376.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 15:52:27.252 [info] <0.376.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 15:52:28.733 [info] <0.382.0> <0.382.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.383.0>
+2025-03-03 15:52:28.934 [info] <0.385.0> <0.385.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.386.0>
+2025-03-03 15:54:51.887 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 15:54:51.887 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 15:54:51.893 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 15:54:51.929 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 15:54:52.151 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 15:54:52.194 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 15:54:52.391 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 15:54:52.468 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 15:54:52.690 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 15:55:31.860 [info] <0.360.0>@emqpg_handler:terminate:134 Handler terminating.
+2025-03-03 15:55:31.863 [error] <0.360.0>@emqpg_handler:handle_info:107 gen_server emqpg_handler terminated with reason: bad argument in call to unicode:characters_to_binary([30005,21160,36710,36229,36895,21862,65292,24403,21069,36895,24230,65306,126,112,32,107,109,47,104], [0]) in emqpg_handler:handle_info/2 line 107
+2025-03-03 15:55:31.863 [error] <0.360.0>@emqpg_handler:handle_info:107 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: bad argument in call to unicode:characters_to_binary([30005,21160,36710,36229,36895,21862,65292,24403,21069,36895,24230,65306,126,112,32,107,109,47,104], [0]) in emqpg_handler:handle_info/2 line 107
+2025-03-03 15:55:31.863 [info] <0.372.0>@emqpg_handler:init:60 MQTT client process started: <0.373.0>
+2025-03-03 15:55:31.863 [error] <0.359.0>@emqpg_handler:handle_info:107 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.360.0> exit with reason bad argument in call to unicode:characters_to_binary([30005,21160,36710,36229,36895,21862,65292,24403,21069,36895,24230,65306,126,112,32,107,109,47,104], [0]) in emqpg_handler:handle_info/2 line 107 in context child_terminated
+2025-03-03 15:55:32.025 [info] <0.372.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 15:55:32.068 [info] <0.372.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 15:56:41.971 [info] <0.372.0>@emqpg_handler:terminate:134 Handler terminating.
+2025-03-03 15:56:41.971 [error] <0.372.0>@emqpg_handler:handle_info:107 gen_server emqpg_handler terminated with reason: bad argument in call to unicode:characters_to_binary([30005,21160,36710,36229,36895,21862,65292,24403,21069,36895,24230,65306,126,112,32,107,109,47,104], [0]) in emqpg_handler:handle_info/2 line 107
+2025-03-03 15:56:41.971 [error] <0.372.0>@emqpg_handler:handle_info:107 CRASH REPORT Process emqpg_handler with 0 neighbours crashed with reason: bad argument in call to unicode:characters_to_binary([30005,21160,36710,36229,36895,21862,65292,24403,21069,36895,24230,65306,126,112,32,107,109,47,104], [0]) in emqpg_handler:handle_info/2 line 107
+2025-03-03 15:56:41.971 [info] <0.374.0>@emqpg_handler:init:60 MQTT client process started: <0.375.0>
+2025-03-03 15:56:41.971 [error] <0.359.0>@emqpg_handler:handle_info:107 Supervisor emqpg_sup had child emqpg_handler started with emqpg_handler:start_link() at <0.372.0> exit with reason bad argument in call to unicode:characters_to_binary([30005,21160,36710,36229,36895,21862,65292,24403,21069,36895,24230,65306,126,112,32,107,109,47,104], [0]) in emqpg_handler:handle_info/2 line 107 in context child_terminated
+2025-03-03 15:56:42.061 [info] <0.374.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 15:56:42.103 [info] <0.374.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 15:57:26.381 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 15:57:26.381 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 15:57:26.386 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 15:57:26.423 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 15:57:26.735 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 15:57:26.779 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 15:57:26.889 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 15:57:27.079 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 15:57:27.299 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 15:58:02.242 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 15:58:02.242 [info] <0.360.0>@emqpg_handler:handle_info:112 Movement detected: Speed=0 km/h
+2025-03-03 15:58:02.244 [info] <0.360.0>@emqpg_handler:handle_info:119 Movement detected: Distance=0 meters, Speed=0 km/h
+2025-03-03 15:59:22.176 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 15:59:22.176 [info] <0.360.0>@emqpg_handler:handle_info:112 Movement detected: Speed=0.0 km/h
+2025-03-03 15:59:22.176 [info] <0.360.0>@emqpg_handler:handle_info:119 Movement detected: Distance=0.0 meters, Speed=0.0 km/h
+2025-03-03 16:00:42.193 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:00:42.193 [info] <0.360.0>@emqpg_handler:handle_info:112 Movement detected: Speed=0.0 km/h
+2025-03-03 16:00:42.194 [info] <0.360.0>@emqpg_handler:handle_info:119 Movement detected: Distance=0.0 meters, Speed=0.0 km/h
+2025-03-03 16:02:02.284 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:02:02.284 [info] <0.360.0>@emqpg_handler:handle_info:112 Movement detected: Speed=0.0 km/h
+2025-03-03 16:02:02.285 [info] <0.360.0>@emqpg_handler:handle_info:119 Movement detected: Distance=0.0 meters, Speed=0.0 km/h
+2025-03-03 16:03:22.268 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:03:22.268 [info] <0.360.0>@emqpg_handler:handle_info:112 Movement detected: Speed=0.0 km/h
+2025-03-03 16:03:22.268 [info] <0.360.0>@emqpg_handler:handle_info:119 Movement detected: Distance=0.0 meters, Speed=0.0 km/h
+2025-03-03 16:04:42.190 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:04:42.190 [info] <0.360.0>@emqpg_handler:handle_info:112 Movement detected: Speed=0.0 km/h
+2025-03-03 16:04:42.190 [info] <0.360.0>@emqpg_handler:handle_info:119 Movement detected: Distance=0.0 meters, Speed=0.0 km/h
+2025-03-03 16:06:05.191 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:06:05.191 [info] <0.360.0>@emqpg_handler:handle_info:112 Movement detected: Speed=0.0 km/h
+2025-03-03 16:06:05.191 [info] <0.360.0>@emqpg_handler:handle_info:119 Movement detected: Distance=0.0 meters, Speed=0.0 km/h
+2025-03-03 16:07:28.814 [debug] <0.343.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:07:28.814 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:07:28.818 [debug] <0.349.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:07:28.860 [info] <0.368.0>@emqpg_handler:init:60 MQTT client process started: <0.369.0>
+2025-03-03 16:07:29.121 [info] <0.368.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:07:29.163 [info] <0.368.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:07:29.316 [debug] <0.336.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:07:30.167 [info] <0.374.0> <0.374.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.375.0>
+2025-03-03 16:07:30.602 [info] <0.377.0> <0.377.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.378.0>
+2025-03-03 16:08:32.054 [error] <0.368.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:08:32.054 [info] <0.368.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:08:32.056 [info] <0.368.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters, Speed=0 km/h
+2025-03-03 16:09:15.092 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:09:15.092 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:09:15.093 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:09:15.136 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:09:15.341 [error] emulator driver_select(0x000002544999c540, 1208, ERL_DRV_READ ERL_DRV_USE, 1) by spawn (c:/Program Files/Erlang OTP/erts-15.2.2/bin/inet_gethost) driver #Port<0.18> stealing control of fd=1208 from resource prim_tty:tty
+
+2025-03-03 16:09:15.439 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:09:15.481 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:09:15.587 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:09:15.960 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:09:16.381 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:09:52.021 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:09:52.021 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:09:52.023 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters, Speed=0 km/h
+2025-03-03 16:11:37.240 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:11:37.240 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:11:37.244 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:11:37.287 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:11:37.741 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:11:38.592 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:11:38.870 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:11:39.259 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:11:40.705 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:12:31.975 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:12:31.975 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:12:31.977 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters
+2025-03-03 16:13:51.961 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:13:51.961 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0.0 km/h
+2025-03-03 16:13:51.961 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0.0 meters
+2025-03-03 16:14:27.190 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:14:27.190 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:14:27.194 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:14:27.231 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:14:27.464 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:14:27.507 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:14:27.686 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:14:27.984 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:14:28.181 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:15:11.980 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:15:11.980 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:15:11.983 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters
+2025-03-03 16:16:32.001 [error] <0.360.0>@emqpg_push:send_msg:41 Message Send Failed: error:undef
+2025-03-03 16:16:32.001 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0.0 km/h
+2025-03-03 16:16:32.001 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0.0 meters
+2025-03-03 16:16:55.886 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:16:55.886 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:16:55.890 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:16:55.930 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:16:56.181 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:16:56.392 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:16:56.469 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:16:57.379 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:16:57.571 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:17:42.198 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:17:42.198 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:17:42.199 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters
+2025-03-03 16:19:01.288 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:19:01.288 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:19:01.291 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:19:01.351 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:19:01.608 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:19:01.648 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:19:01.787 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:19:01.875 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:19:02.069 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:19:02.409 [info] <0.360.0>@emqpg_push:send_msg:34 PushToken: ~p
+2025-03-03 16:19:02.411 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:19:02.411 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:19:02.413 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters
+2025-03-03 16:20:22.387 [info] <0.360.0>@emqpg_push:send_msg:34 PushToken: ~p
+2025-03-03 16:20:22.391 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:20:22.391 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0.0 km/h
+2025-03-03 16:20:22.391 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0.0 meters
+2025-03-03 16:20:59.736 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:20:59.736 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:20:59.736 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:20:59.779 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:21:00.054 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:21:00.096 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:21:00.241 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:21:00.584 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:21:01.623 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:21:42.517 [info] <0.360.0>@emqpg_push:send_msg:34 PushToken: <<"f9f695f545524ebd89927ddfbce5d9b1">>
+2025-03-03 16:21:42.519 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:21:42.519 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:21:42.521 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters
+2025-03-03 16:22:48.236 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:22:48.236 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:22:48.236 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:22:48.278 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:22:48.569 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:22:48.610 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:22:48.728 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:22:48.856 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:22:49.276 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:23:02.448 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:23:02.448 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:23:02.450 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters
+2025-03-03 16:23:36.103 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:23:36.103 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:23:36.109 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:23:36.151 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:23:36.295 [error] emulator driver_select(0x00000238621b4540, 1200, ERL_DRV_READ ERL_DRV_USE, 1) by spawn (c:/Program Files/Erlang OTP/erts-15.2.2/bin/inet_gethost) driver #Port<0.18> stealing control of fd=1200 from resource prim_tty:tty
+
+2025-03-03 16:23:36.400 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:23:36.444 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:23:36.610 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:23:36.698 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:23:36.921 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:24:22.366 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:24:22.366 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:24:22.368 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters
+2025-03-03 16:25:42.443 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:25:42.443 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0.0 km/h
+2025-03-03 16:25:42.443 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0.0 meters
+2025-03-03 16:27:20.621 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:27:20.621 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0.0 km/h
+2025-03-03 16:27:20.621 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0.0 meters
+2025-03-03 16:28:40.304 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:28:40.304 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0.0 km/h
+2025-03-03 16:28:40.304 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0.0 meters
+2025-03-03 16:30:05.380 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:30:05.380 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0.0 km/h
+2025-03-03 16:30:05.380 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0.0 meters
+2025-03-03 16:31:25.366 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:31:25.366 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0.0 km/h
+2025-03-03 16:31:25.366 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0.0 meters
+2025-03-03 16:32:32.348 [error] <0.360.0>@emqpg_push:send_msg:42 Message Send Failed: error:undef
+2025-03-03 16:32:32.348 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0.0 km/h
+2025-03-03 16:32:32.348 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0.0 meters
+2025-03-03 16:33:29.027 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:33:29.027 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:33:29.028 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:33:29.076 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:33:29.311 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:33:29.353 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:33:29.520 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:33:29.574 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:33:29.760 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:33:51.965 [info] <0.360.0>@emqpg_push:send_msg:37 Message Send: <<123,34,116,105,116,108,101,34,58,34,229,174,154,228,189,141,232,174,190,229,164,135,230,143,144,233,134,146,230,182,136,230,129,175,34,44,34,116,111,107,101,110,34,58,34,102,57,102,54,57,53,102,53,52,53,53,50,52,101,98,100,56,57,57,50,55,100,100,102,98,99,101,53,100,57,98,49,34,44,34,99,111,110,116,101,110,116,34,58,34,231,148,181,229,138,168,232,189,166,232,182,133,233,128,159,229,149,166,239,188,140,229,189,147,229,137,141,233,128,159,229,186,166,239,188,154,48,32,107,109,47,104,34,125>>
+2025-03-03 16:33:52.287 [info] <0.360.0>@emqpg_handler:handle_info:114 Movement detected: Speed=0 km/h
+2025-03-03 16:33:52.288 [info] <0.360.0>@emqpg_handler:handle_info:121 Movement detected: Distance=0 meters
+2025-03-03 16:36:20.172 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:36:20.172 [debug] <0.343.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:36:20.177 [debug] <0.349.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:36:20.215 [info] <0.368.0>@emqpg_handler:init:60 MQTT client process started: <0.369.0>
+2025-03-03 16:36:20.668 [debug] <0.336.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:36:20.744 [info] <0.368.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:36:20.780 [info] <0.368.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:36:21.228 [info] <0.374.0> <0.374.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.375.0>
+2025-03-03 16:36:21.406 [info] <0.377.0> <0.377.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.378.0>
+2025-03-03 16:36:32.103 [info] <0.368.0>@emqpg_handler:handle_info:113 Movement detected: Speed=0 km/h
+2025-03-03 16:36:32.106 [info] <0.368.0>@emqpg_handler:handle_info:120 Movement detected: Distance=0 meters
+2025-03-03 16:37:52.071 [info] <0.368.0>@emqpg_handler:handle_info:113 Movement detected: Speed=0.0 km/h
+2025-03-03 16:37:52.071 [info] <0.368.0>@emqpg_handler:handle_info:120 Movement detected: Distance=0.0 meters
+2025-03-03 16:38:39.122 [debug] <0.341.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:38:39.122 [debug] <0.335.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:38:39.122 [debug] <0.332.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:38:39.167 [info] <0.360.0>@emqpg_handler:init:60 MQTT client process started: <0.361.0>
+2025-03-03 16:38:39.425 [info] <0.360.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:38:39.467 [info] <0.360.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:38:39.616 [debug] <0.328.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:38:40.050 [info] <0.366.0> <0.366.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.367.0>
+2025-03-03 16:38:40.255 [info] <0.369.0> <0.369.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.370.0>
+2025-03-03 16:39:11.926 [info] <0.360.0>@emqpg_push:send_msg:37 Message Send: <<"{\"title\":[23450,20301,35774,22791,25552,37266,28040,24687],\"token\":[102,57,102,54,57,53,102,53,52,53,53,50,52,101,98,100,56,57,57,50,55,100,100,102,98,99,101,53,100,57,98,49],\"content\":[30005,21160,36710,36229,36895,21862,65292,24403,21069,36895,24230,65306,[48],32,107,109,47,104]}">>
+2025-03-03 16:39:12.052 [info] <0.360.0>@emqpg_handler:handle_info:113 Movement detected: Speed=0 km/h
+2025-03-03 16:39:12.053 [info] <0.360.0>@emqpg_handler:handle_info:120 Movement detected: Distance=0 meters
+2025-03-03 16:43:17.632 [debug] <0.343.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"debug.log"} into lager_event
+2025-03-03 16:43:17.632 [debug] <0.340.0>@lager_handler_watcher:127 Lager installed handler {lager_file_backend,"error.log"} into lager_event
+2025-03-03 16:43:17.633 [debug] <0.349.0>@lager_handler_watcher:127 Lager installed handler error_logger_lager_h into error_logger
+2025-03-03 16:43:17.675 [info] <0.368.0>@emqpg_handler:init:60 MQTT client process started: <0.369.0>
+2025-03-03 16:43:17.876 [info] <0.368.0>@emqpg_handler:init:64 Connected to EMQX broker at "fn.wongcw.cn":1883
+2025-03-03 16:43:17.919 [info] <0.368.0>@emqpg_handler:init:67 Subscribed to MQTT topic: <<"pos/gnss">>
+2025-03-03 16:43:18.129 [debug] <0.336.0>@lager_handler_watcher:127 Lager installed handler lager_backend_throttle into lager_event
+2025-03-03 16:43:18.416 [info] <0.374.0> <0.374.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.375.0>
+2025-03-03 16:43:18.608 [info] <0.377.0> <0.377.0> Connected to eadm at fn.wongcw.cn with user user_eadm: <0.378.0>
