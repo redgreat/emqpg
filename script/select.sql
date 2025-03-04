@@ -1,6 +1,6 @@
 SELECT * 
 FROM lc_hzgnss
-ORDER BY id DESC
+ORDER BY inserttime DESC
 LIMIT 10;
 
 SELECT COUNT(1)
